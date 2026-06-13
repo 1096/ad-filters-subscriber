@@ -17,9 +17,9 @@ application:
       path: "https://raw.cosr.eu.org/EasyPrivacy.txt"
       type: easylist
 
-    - name: "I Dont Care About Cookies"
-      path: "https://www.i-dont-care-about-cookies.eu/abp"
-      type: easylist
+    # - name: "I Dont Care About Cookies"
+    #   path: "https://www.i-dont-care-about-cookies.eu/abp"
+    #   type: easylist
 
     - name: "HalfLife"
       path: "https://raw.cosr.eu.org/HalfLife.txt"
@@ -37,9 +37,9 @@ application:
       path: "https://raw.cosr.eu.org/Xinggsf_mv.txt"
       type: easylist
 
-    - name: "Fanboy Social"
-      path: "https://raw.cosr.eu.org/Fanboy-social.txt"
-      type: easylist
+    # - name: "Fanboy Social"
+    #   path: "https://raw.cosr.eu.org/Fanboy-social.txt"
+    #   type: easylist
 
     - name: "ADgk"
       path: "https://raw.cosr.eu.org/ADgk.txt"
@@ -65,13 +65,13 @@ application:
       path: "https://raw.cosr.eu.org/uBlock_filters.txt"
       type: easylist
 
-    - name: "Anti Adblock Warning"
-      path: "https://raw.cosr.eu.org/antiadblockfilters.txt"
-      type: easylist
+    # - name: "Anti Adblock Warning"
+    #   path: "https://raw.cosr.eu.org/antiadblockfilters.txt"
+    #   type: easylist
 
-    - name: "Fanboy Annoyance"
-      path: "https://raw.cosr.eu.org/fanboy-annoyance.txt"
-      type: easylist
+    # - name: "Fanboy Annoyance"
+    #   path: "https://raw.cosr.eu.org/fanboy-annoyance.txt"
+    #   type: easylist
 
     - name: "Baidu Ad Block"
       path: "https://raw.cosr.eu.org/kill-baidu-ad.txt"
