@@ -1,2 +1,186 @@
-# 参考 `application-example.yaml` 并在处添加订阅规则，请注意缩进
-# Refer to `application-example.yaml` and add subscription rules there，please note the indentation
+application:
+
+  input:
+    - name: "AdGuard DNS Filter"
+      path: "https://raw.cosr.eu.org/AdGuard_Simplified_Domain_Names_Filter.txt"
+      type: dns
+
+    - name: "Anti-AD"
+      path: "https://raw.cosr.eu.org/Anti_AD_Easylist.txt"
+      type: easylist
+
+    - name: "EasyList China"
+      path: "https://raw.cosr.eu.org/EasyList_China.txt"
+      type: easylist
+
+    - name: "EasyPrivacy"
+      path: "https://raw.cosr.eu.org/EasyPrivacy.txt"
+      type: easylist
+
+    - name: "I Dont Care About Cookies"
+      path: "https://www.i-dont-care-about-cookies.eu/abp"
+      type: easylist
+
+    - name: "HalfLife"
+      path: "https://raw.cosr.eu.org/HalfLife.txt"
+      type: easylist
+
+    - name: "CJX Annoyance"
+      path: "https://raw.cosr.eu.org/CJX's_Annoyance_List.txt"
+      type: easylist
+
+    - name: "Xinggsf Rule"
+      path: "https://raw.cosr.eu.org/Xinggsf_rule.txt"
+      type: easylist
+
+    - name: "Xinggsf MV"
+      path: "https://raw.cosr.eu.org/Xinggsf_mv.txt"
+      type: easylist
+
+    - name: "Fanboy Social"
+      path: "https://raw.cosr.eu.org/Fanboy-social.txt"
+      type: easylist
+
+    - name: "ADgk"
+      path: "https://raw.cosr.eu.org/ADgk.txt"
+      type: easylist
+
+    - name: "AWAvenue Ads Rule"
+      path: "https://raw.cosr.eu.org/AWAvenue_Ads_Rule.txt"
+      type: easylist
+
+    - name: "AdGuard Base Filter"
+      path: "https://raw.cosr.eu.org/AdGuard_Base_Filter.txt"
+      type: easylist
+
+    - name: "AdGuard Mobile Ads Filter"
+      path: "https://raw.cosr.eu.org/AdGuard_Mobile_Ads_Filter.txt"
+      type: easylist
+
+    - name: "AdGuard Chinese Filter"
+      path: "https://raw.cosr.eu.org/AdGuard_Chinese_Filter.txt"
+      type: easylist
+
+    - name: "uBlock Filters"
+      path: "https://raw.cosr.eu.org/uBlock_filters.txt"
+      type: easylist
+
+    - name: "Anti Adblock Warning"
+      path: "https://raw.cosr.eu.org/antiadblockfilters.txt"
+      type: easylist
+
+    - name: "Fanboy Annoyance"
+      path: "https://raw.cosr.eu.org/fanboy-annoyance.txt"
+      type: easylist
+
+    - name: "Baidu Ad Block"
+      path: "https://raw.cosr.eu.org/kill-baidu-ad.txt"
+      type: easylist
+
+    - name: "DaSheng Hosts"
+      path: "https://raw.cosr.eu.org/ds_hosts.txt"
+      type: hosts
+
+    - name: "1024 Hosts"
+      path: "https://raw.cosr.eu.org/1024_hosts.txt"
+      type: hosts
+
+    - name: "iOSAdblockList Hosts"
+      path: "https://raw.cosr.eu.org/iPv4_hosts.txt"
+      type: hosts
+
+    - name: "Steven Hosts"
+      path: "https://raw.cosr.eu.org/Steven_hosts"
+      type: hosts
+
+    - name: "Hblock Hosts"
+      path: "https://raw.cosr.eu.org/Hblock_hosts"
+      type: hosts
+
+    - name: "Malware Hosts"
+      path: "https://raw.cosr.eu.org/Malware_host.txt"
+      type: hosts
+
+  output:
+    file_header: |
+      ADFS AdBlock ${type}
+      Last Modified: ${date}
+      Total Size: ${total}
+      Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+
+    files:
+      - name: all-easylist.txt
+        type: easylist
+        desc: "Merged easylist rules"
+        filter:
+          - basic
+          - wildcard
+          - unknown
+        rule: []
+
+      - name: all-dns.txt
+        type: dns
+        desc: "Merged dns rules"
+        filter:
+          - basic
+          - wildcard
+          - unknown
+        rule: []
+
+      - name: all-dnsmasq.txt
+        type: dnsmasq
+        desc: "Merged dnsmasq rules"
+        filter:
+          - basic
+          - wildcard
+          - unknown
+        rule: []
+
+      - name: all-clash.yaml
+        type: clash
+        desc: "Merged clash rules"
+        filter:
+          - basic
+          - wildcard
+          - unknown
+        rule: []
+
+      - name: all-smartdns.txt
+        type: smartdns
+        desc: "Merged smartdns rules"
+        filter:
+          - basic
+          - wildcard
+          - unknown
+        rule: []
+
+      - name: all-hosts.txt
+        type: hosts
+        desc: "Merged hosts rules"
+        filter:
+          - basic
+          - wildcard
+          - unknown
+        rule: []
+
+  config:
+    parser:
+      log-level: info
+      min-length: 0
+      max-length: 1024
+      expected: 200000
+      dns-probe:
+        enable: false
+      excludes: []
+
+    fetcher:
+      http:
+        charset: UTF-8
+        connect-timeout: 10s
+        read-timeout: 30s
+        write-timeout: 30s
+        response-timeout: 30s
+        buffer-size: 4KB
+      local:
+        charset: UTF-8
+        buffer-size: 4KB
