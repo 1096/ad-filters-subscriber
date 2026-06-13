@@ -17,10 +17,6 @@ application:
       path: "https://raw.cosr.eu.org/EasyPrivacy.txt"
       type: easylist
 
-    # - name: "I Dont Care About Cookies"
-    #   path: "https://www.i-dont-care-about-cookies.eu/abp"
-    #   type: easylist
-
     - name: "HalfLife"
       path: "https://raw.cosr.eu.org/HalfLife.txt"
       type: easylist
