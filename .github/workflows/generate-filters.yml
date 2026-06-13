@@ -41,4 +41,5 @@ jobs:
         git config --local user.name "GitHub Action"
         git add rule/ || true
         git commit -m "Update filter rules" -m "Generated at $(date)" || true
+        git pull --rebase origin main || true
         git push
