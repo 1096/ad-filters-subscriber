@@ -1,124 +1,227 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <name>ad-filters-subscriber</name>
-    <groupId>org.fordes</groupId>
-    <description>AD Filters Subscriber</description>
+package org.fordes.adfs;
 
-    <modelVersion>4.0.0</modelVersion>
-    <artifactId>ad-filters-subscriber</artifactId>
-    <version>1.4.0</version>
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.fordes.adfs.config.InputProperties;
+import org.fordes.adfs.config.OutputProperties;
+import org.fordes.adfs.constant.Constants;
+import org.fordes.adfs.handler.Parser;
+import org.fordes.adfs.handler.rule.Handler;
+import org.fordes.adfs.model.Rule;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+import reactor.core.scheduler.Schedulers;
+import reactor.util.function.Tuple2;
+import reactor.util.function.Tuples;
 
-    <properties>
-        <java.version>25</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>4.0.5</spring-boot.version>
-        <commons-codec.version>1.21.0</commons-codec.version>
-        <fastutil.version>8.5.18</fastutil.version>
-        <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
-        <lombok.version>1.18.38</lombok.version>
-    </properties>
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
+import java.nio.file.StandardOpenOption;
+import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.Set;
+import java.util.concurrent.atomic.AtomicLong;
 
-    <dependencies>
+@Slf4j
+@Component
+@SpringBootApplication
+@ConfigurationPropertiesScan(value = "org.fordes.adfs.config")
+@RequiredArgsConstructor
+public class AdFSApplication {
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webflux</artifactId>
-        </dependency>
+  private final ApplicationContext context;
+  private final InputProperties input;
+  private final OutputProperties output;
+  private final Parser parser;
+  private Map<String, Output> outputMap;
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
-        </dependency>
+  public static void main(String[] args) {
+    SpringApplication.run(AdFSApplication.class, args);
+  }
 
-        <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>${commons-codec.version}</version>
-            <scope>compile</scope>
-        </dependency>
+  public record Output(OutputProperties.Item item, Path tempFile, AtomicLong count) {
+  }
 
-        <dependency>
-            <groupId>it.unimi.dsi</groupId>
-            <artifactId>fastutil</artifactId>
-            <version>${fastutil.version}</version>
-            <scope>compile</scope>
-        </dependency>
+  @Bean
+  public ApplicationRunner start() {
+    this.outputMap = new HashMap<>(this.output.files().size(), 1);
+    this.output.files().forEach(file -> {
+      try {
+        Path tempFile = Files.createTempFile(file.name(), ".tmp");
+        this.outputMap.put(file.name(), new Output(file, tempFile, new AtomicLong(0L)));
+      } catch (IOException e) {
+        log.error("create temp file failed", e);
+        this.exit();
+      }
+    });
 
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
+    return args -> {
+      long start = System.currentTimeMillis();
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+      Flux.fromIterable(this.input.input())
+          .flatMap(parser::handle, 1)
+          .flatMap(rule -> this.output(output.files(), rule))
+          .groupBy(Tuple2::getT1, Tuple2::getT2)
+          .flatMap(group -> group
+              .bufferTimeout(5000, Duration.ofSeconds(1))
+              .flatMap(batch -> asyncBatchWrite(group.key().name(), batch))
+              .subscribeOn(Schedulers.boundedElastic())
+          )
+          .then(Mono.defer(this::createOutputDirectory))
+          .then(Mono.defer(this::processOutputFiles))
+          .doOnError(ex -> {
+            log.error("processing failed", ex);
+            this.exit();
+          })
+          .doFinally(signal -> {
+            log.info("all done, cost: {} ms", System.currentTimeMillis() - start);
+            this.exit();
+          })
+          .subscribe();
+    };
+  }
 
-    </dependencies>
+  private Flux<Tuple2<OutputProperties.Item, String>> output(Set<OutputProperties.Item> outputs, Rule rule) {
+    return Flux.fromIterable(outputs)
+        .filter(file -> file.rule().isEmpty() || file.rule().contains(rule.getSourceName()))
+        .filter(file -> file.filter().isEmpty() || file.filter().contains(rule.getType()))
+        .flatMap(file -> {
+          Handler handler = Handler.getHandler(file.type());
+          String content = handler.format(rule);
+          return content != null ? Mono.just(Tuples.of(file, content)) : Mono.empty();
+        });
+  }
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+  private Mono<Path> createOutputDirectory() {
+    return Mono.fromCallable(() -> Files.createDirectories(Path.of(output.path())))
+        .subscribeOn(Schedulers.boundedElastic())
+        .onErrorResume(ex -> {
+          log.error("create output dir failed", ex);
+          return Mono.error(ex);
+        });
+  }
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.15.0</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <encoding>UTF-8</encoding>
-                    <proc>full</proc>
-                    <annotationProcessorPaths>
-                        <path>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                            <version>${lombok.version}</version>
-                        </path>
-                    </annotationProcessorPaths>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version>
-                <configuration>
-                    <jvmArguments>--enable-native-access=ALL-UNNAMED</jvmArguments>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>repackage</id>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-        <filters>
-            <filter>src/main/resources/application.yml</filter>
-        </filters>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-    </build>
+  private Mono<Void> processOutputFiles() {
+    Path dir = Path.of(output.path());
+    return Flux.fromIterable(output.files())
+        .flatMap(file -> {
+          Output opt = outputMap.get(file.name());
+          Path tempFile = opt.tempFile;
+          Path targetFile = dir.resolve(file.name());
+          String header = buildHeader(file, output.fileHeader(), Long.toString(opt.count.get()));
 
-</project>
+          log.info("[{}] written completed, total size => {}", file.name(), opt.count.get());
+          return prependAndMove(targetFile, tempFile, header).subscribeOn(Schedulers.boundedElastic());
+        })
+        .then();
+  }
+
+  private Mono<Void> asyncBatchWrite(String fileName, List<String> batch) {
+    Output opt = outputMap.get(fileName);
+    opt.count().addAndGet(batch.size());
+
+    return asyncBatchWrite(opt.tempFile, batch);
+  }
+
+  private Mono<Void> asyncBatchWrite(Path path, List<String> batch) {
+    return Mono.fromCallable(() -> {
+          Files.write(path, batch, StandardCharsets.UTF_8,
+              StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+          return null;
+        })
+        .onErrorResume(e -> {
+          log.error("Write failed", e);
+          return Mono.empty();
+        })
+        .then();
+  }
+
+  private Mono<Path> prependAndMove(Path targetFile, Path tempFile, String header) {
+    return Mono.fromCallable(() -> {
+      if (Files.exists(targetFile)) {
+        Path intermediateFile = Files.createTempFile(targetFile.getFileName().toString(), ".intermediate");
+
+        try (BufferedWriter writer = Files.newBufferedWriter(intermediateFile, StandardCharsets.UTF_8);
+             BufferedReader tempReader = Files.newBufferedReader(tempFile, StandardCharsets.UTF_8)) {
+
+          if (!header.isBlank()) {
+            writer.write(header);
+          }
+
+          tempReader.transferTo(writer);
+        }
+
+        Files.move(intermediateFile, targetFile, StandardCopyOption.REPLACE_EXISTING);
+        Files.deleteIfExists(tempFile);
+      } else {
+        try (BufferedWriter writer = Files.newBufferedWriter(tempFile, StandardCharsets.UTF_8,
+            StandardOpenOption.WRITE, StandardOpenOption.CREATE)) {
+
+          if (!header.isBlank()) {
+            List<String> lines = Files.readAllLines(tempFile, StandardCharsets.UTF_8);
+            Files.writeString(tempFile, header, StandardCharsets.UTF_8);
+            Files.write(tempFile, lines, StandardCharsets.UTF_8, StandardOpenOption.APPEND);
+          }
+        }
+
+        Files.move(tempFile, targetFile, StandardCopyOption.REPLACE_EXISTING);
+      }
+
+      return targetFile;
+    });
+  }
+
+  private void exit() {
+    Optional.ofNullable(this.outputMap).ifPresent(map -> {
+      map.forEach((k, v) -> {
+        try {
+          Files.deleteIfExists(v.tempFile);
+        } catch (IOException ignored) {
+          //ignore
+        }
+      });
+    });
+
+    int exit = SpringApplication.exit(this.context, () -> 0);
+    System.exit(exit);
+  }
+
+  private String buildHeader(OutputProperties.Item config, String parentHeader, String total) {
+    Handler handler = Handler.getHandler(config.type());
+    StringBuilder builder = new StringBuilder();
+
+    String template = config.fileHeader().isBlank() ? parentHeader : config.fileHeader();
+    if (!template.isBlank()) {
+      String header = handler.commented(template
+          .replace(Constants.Placeholder.HEADER_DATE, LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")))
+          .replace(Constants.Placeholder.HEADER_NAME, config.name())
+          .replace(Constants.Placeholder.HEADER_DESC, config.desc())
+          .replace(Constants.Placeholder.HEADER_TYPE, config.type().name().toLowerCase()))
+          .replace(Constants.Placeholder.HEADER_TOTAL, total);
+      builder.append(header).append(System.lineSeparator());
+    }
+
+    Optional.ofNullable(handler.headFormat()).filter(StringUtils::hasText)
+        .ifPresent(e -> builder.append(e).append(System.lineSeparator()));
+
+    return builder.toString();
+  }
+}
