@@ -149,7 +149,7 @@ public class Parser {
 
                 })
                 .doFinally(signal -> {
-                    AdFSApplication.log.info("[{}] parsing cost {} ms, total: {}, effective: {}, repeat: {}, invalid: {}",
+                    log.info("[{}] parsing cost {} ms, total: {}, effective: {}, repeat: {}, invalid: {}",
                             prop.name(), System.currentTimeMillis() - start,
                             total.longValue(), effective.longValue(), repeat.longValue(), invalid.longValue());
                 });
