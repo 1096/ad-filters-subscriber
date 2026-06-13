@@ -65,9 +65,9 @@ application:
       path: "https://raw.cosr.eu.org/uBlock_filters.txt"
       type: easylist
 
-    # - name: "Anti Adblock Warning"
-    #   path: "https://raw.cosr.eu.org/antiadblockfilters.txt"
-    #   type: easylist
+     - name: "Anti Adblock Warning"
+       path: "https://raw.cosr.eu.org/antiadblockfilters.txt"
+       type: easylist
 
     # - name: "Fanboy Annoyance"
     #   path: "https://raw.cosr.eu.org/fanboy-annoyance.txt"
