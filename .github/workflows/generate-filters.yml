@@ -3,6 +3,7 @@ name: Generate Filters
 on:
   push:
     branches: [ main, master ]
+  workflow_dispatch:   
   schedule:
     - cron: '0 2 * * *'
 
