@@ -17,6 +17,7 @@ application:
       path: "https://raw.cosr.eu.org/EasyPrivacy.txt"
       type: easylist
 
+
     - name: "HalfLife"
       path: "https://raw.cosr.eu.org/HalfLife.txt"
       type: easylist
@@ -67,6 +68,10 @@ application:
 
     - name: "Fanboy Annoyance"
       path: "https://raw.cosr.eu.org/fanboy-annoyance.txt"
+      type: easylist
+
+    - name: "HostlistsRegistry filter_1"
+      path: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
       type: easylist
 
     - name: "Baidu Ad Block"
