@@ -101,6 +101,10 @@ application:
       path: "https://raw.cosr.eu.org/Malware_host.txt"
       type: hosts
 
+    - name: "Fqnovel Ad Rules"
+      path: "https://raw.githubusercontent.com/changzhaoCZ/fqnovel-adrules/refs/heads/main/fq.txt"
+      type: easylist
+
   output:
     file_header: |
       ADFS AdBlock ${type}
