@@ -1,10 +1,12 @@
 application:
 
   input:
+    # DNS
     - name: "AdGuard DNS Filter"
       path: "https://raw.cosr.eu.org/AdGuard_Simplified_Domain_Names_Filter.txt"
       type: dns
 
+    # 综合中文规则
     - name: "Anti-AD"
       path: "https://raw.cosr.eu.org/Anti_AD_Easylist.txt"
       type: easylist
@@ -16,7 +18,6 @@ application:
     - name: "EasyPrivacy"
       path: "https://raw.cosr.eu.org/EasyPrivacy.txt"
       type: easylist
-
 
     - name: "HalfLife"
       path: "https://raw.cosr.eu.org/HalfLife.txt"
@@ -46,12 +47,29 @@ application:
       path: "https://raw.cosr.eu.org/AWAvenue_Ads_Rule.txt"
       type: easylist
 
+    # AdGuard / uBlock 系
     - name: "AdGuard Base Filter"
       path: "https://raw.cosr.eu.org/AdGuard_Base_Filter.txt"
       type: easylist
 
     - name: "AdGuard Mobile Ads Filter"
       path: "https://raw.cosr.eu.org/AdGuard_Mobile_Ads_Filter.txt"
+      type: easylist
+
+    - name: "AdGuard 防跟踪保护过滤器"
+      path: "https://filters.adtidy.org/extension/ublock/filters/3_optimized.txt"
+      type: easylist
+
+    - name: "AdGuard URL跟踪过滤器"
+      path: "https://filters.adtidy.org/extension/ublock/filters/17_optimized.txt"
+      type: easylist
+
+    - name: "AdGuard 恼人广告过滤器"
+      path: "https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt"
+      type: easylist
+
+    - name: "AdGuard 解除搜索广告和自我推销过滤器"
+      path: "https://filters.adtidy.org/extension/ublock/filters/10_optimized.txt"
       type: easylist
 
     - name: "AdGuard Chinese Filter"
@@ -78,6 +96,19 @@ application:
       path: "https://raw.cosr.eu.org/kill-baidu-ad.txt"
       type: easylist
 
+    - name: "ABP filters"
+      path: "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt"
+      type: easylist
+
+    - name: "uBlockOrigin privacy"
+      path: "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt"
+      type: easylist
+
+    - name: "NoAppDownload"
+      path: "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt"
+      type: easylist
+
+    # Hosts
     - name: "DaSheng Hosts"
       path: "https://raw.cosr.eu.org/ds_hosts.txt"
       type: hosts
@@ -102,8 +133,13 @@ application:
       path: "https://raw.cosr.eu.org/Malware_host.txt"
       type: hosts
 
+    # 小说专项
     - name: "Fqnovel Ad Rules"
       path: "https://raw.githubusercontent.com/changzhaoCZ/fqnovel-adrules/refs/heads/main/fq.txt"
+      type: easylist
+
+    - name: "AD--"
+      path: "https://raw.githubusercontent.com/wycxqsf/AD--/main/%E8%87%AA%E7%94%A8%E8%A7%84%E5%88%993.0.txt"
       type: easylist
 
   output:
