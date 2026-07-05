@@ -1,6 +1,6 @@
 #ADFS AdBlock clash
-#Last Modified: 2026-07-05 12:51:54
-#Total Size: 489648
+#Last Modified: 2026-07-05 12:53:30
+#Total Size: 489649
 #Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 payload:
   - "+.delightlintlunatic.com"
@@ -189484,6 +189484,7 @@ payload:
   - "+.portalegiovani.fumblingvacation.pro"
   - "+.premioamjeemprende.lovingforever.pro"
   - "+.prestonlowe.lovingforever.pro"
+  - "+.q1119.fumblingvacation.pro"
   - "+.realstreetmusic.fumblingvacation.pro"
   - "+.rtheyallyours.lovingforever.pro"
   - "+.runtingsproper.lovingforever.pro"

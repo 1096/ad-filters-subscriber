@@ -1,6 +1,6 @@
 # ADFS AdBlock smartdns
-# Last Modified: 2026-07-05 12:51:54
-# Total Size: 489006
+# Last Modified: 2026-07-05 12:53:30
+# Total Size: 489007
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 address /delightlintlunatic.com/#
 address /impassableretainerexplained.com/#
@@ -188915,6 +188915,7 @@ address /piggy-sakura.fumblingvacation.pro/#
 address /portalegiovani.fumblingvacation.pro/#
 address /premioamjeemprende.lovingforever.pro/#
 address /prestonlowe.lovingforever.pro/#
+address /q1119.fumblingvacation.pro/#
 address /realstreetmusic.fumblingvacation.pro/#
 address /rtheyallyours.lovingforever.pro/#
 address /runtingsproper.lovingforever.pro/#
