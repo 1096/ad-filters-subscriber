@@ -1,6 +1,6 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-08 04:46:19
-! Total Size: 1013162
+! Last Modified: 2026-11-08 04:54:33
+! Total Size: 1013161
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 ||trambelongedallure.com^
 ||contuselegator.com^
@@ -267447,7 +267447,6 @@ ad.broadstreetads.com
 ||login.acertb.com^
 ||login.ad-maven.com^
 ||login.additionalmedia.com^
-||login.adexone.com^
 ||login.adjux.com^
 ||login.adkmbc.com^
 ||login.admanmedia.com^
@@ -311010,18 +311009,18 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
-||aeoldjkiutpwj.site^
-||certainwolveshonestly.com^
+||arrivedmuffin.com^
 ||demand.supply^$script
-||effectivecreativeformat.com^
-||fibendlesslydecoction.com^
 ||fl.corniercuffed.qpon^
-||fyjnfqbqtnfxz.site^
+||kkopshcenbxot.site^
 ||macro.adnami.io^
+||multstorage.com^
 ||paid.outbrain.com^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
-||skilletperonei.com^
+||somegreatt.com^
+||ukxkyugezizqp.space^
+||viikpgei.com^
 ||wpnrtnmrewunrtok.xyz^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
@@ -692076,7 +692075,6 @@ wss://*/api/wss/GetNotReadCount$3p
 ||258zw.com^$3p
 ||2hiu.com^$3p
 ||3798.com^$3p
-||4d45i6p0g.com^
 ||5399.com^$3p
 ||6789.net^$3p
 ||7794.com^$3p
@@ -692262,6 +692260,7 @@ cnyes.com##article > div:has(> div[id^="div-gpt-ad"])
 copyfuture.com##.tabbable > div:contains(宝红)
 czzy.top,czzy77.com##.swiper-slide:has(a[href^="http"]:not([href*="czzy"]))
 6parknews.com###d_list > ul > li:has(a[href^="http"]:not([href*="6parknews"]))
+chuandong.com##div[class*="-ad"]
 douban.com##.rec_topics:has(> .rec_topics_name[href^="https://erebor.douban."])
 doubibackup.com,doubiuser.github.io##.custom-html-widget:has(div[style^="position"])
 douyin.com##.discover-video-card-item:has(> div > div > span:contains(广告))

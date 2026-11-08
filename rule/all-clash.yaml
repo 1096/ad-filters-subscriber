@@ -1,6 +1,6 @@
 #ADFS AdBlock clash
-#Last Modified: 2026-11-08 04:46:19
-#Total Size: 516221
+#Last Modified: 2026-11-08 04:54:33
+#Total Size: 516222
 #Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 payload:
   - "+.trambelongedallure.com"
@@ -224545,7 +224545,6 @@ payload:
   - "+.waimaoshoes.x.goasrv.com"
   - "+.waitz.goaserv.com"
   - "+.waiweibocai.goasrv.com"
-  - "+.waiweibocaigaoshoutan.goasrv.com"
   - "+.walkingdeadrts.goasrv.com"
   - "+.walkofthoughts.goasrv.com"
   - "+.wamaha.goaserv.com"
@@ -224580,6 +224579,7 @@ payload:
   - "+.www.goaserv.com"
   - "+.www.hd-wallpaper.goasrv.com"
   - "+.www.lombard.goasrv.com"
+  - "+.www.swroch.goaserv.com"
   - "+.www.utstat.goasrv.com"
   - "+.www1.hkuspace.goaserv.com"
   - "+.www38.receita.goasrv.com"
@@ -225122,6 +225122,7 @@ payload:
   - "+.lucidesapiens.go-static.info"
   - "+.luckypreg.go-static.info"
   - "+.m.fotoservice.go-static.info"
+  - "+.m.go-static.info"
   - "+.m.investir.go-static.info"
   - "+.m.jagbani.go-static.info"
   - "+.m.paladini.go-static.info"

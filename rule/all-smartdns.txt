@@ -1,6 +1,6 @@
 # ADFS AdBlock smartdns
-# Last Modified: 2026-11-08 04:46:19
-# Total Size: 515560
+# Last Modified: 2026-11-08 04:54:33
+# Total Size: 515561
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 address /trambelongedallure.com/#
 address /contuselegator.com/#
@@ -223962,7 +223962,6 @@ address /wadainocomic.goasrv.com/#
 address /waimaoshoes.x.goasrv.com/#
 address /waitz.goaserv.com/#
 address /waiweibocai.goasrv.com/#
-address /waiweibocaigaoshoutan.goasrv.com/#
 address /walkingdeadrts.goasrv.com/#
 address /walkofthoughts.goasrv.com/#
 address /wamaha.goaserv.com/#
@@ -223997,6 +223996,7 @@ address /www.arso.goaserv.com/#
 address /www.goaserv.com/#
 address /www.hd-wallpaper.goasrv.com/#
 address /www.lombard.goasrv.com/#
+address /www.swroch.goaserv.com/#
 address /www.utstat.goasrv.com/#
 address /www1.hkuspace.goaserv.com/#
 address /www38.receita.goasrv.com/#
@@ -224539,6 +224539,7 @@ address /lphmt.go-static.info/#
 address /lucidesapiens.go-static.info/#
 address /luckypreg.go-static.info/#
 address /m.fotoservice.go-static.info/#
+address /m.go-static.info/#
 address /m.investir.go-static.info/#
 address /m.jagbani.go-static.info/#
 address /m.paladini.go-static.info/#
