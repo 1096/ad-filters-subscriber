@@ -1,6 +1,6 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-08 04:23:41
-! Total Size: 1013164
+! Last Modified: 2026-11-08 04:27:34
+! Total Size: 1013166
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 ||trambelongedallure.com^
 ||contuselegator.com^
@@ -267674,7 +267674,6 @@ ad.broadstreetads.com
 ||sw.looksmart.com^
 ||sync.adkernel.com^
 ||tag.adkernel.com^
-||tq-eu.flowldsd.online^
 ||tq.adventurefeeds.com^
 ||track.adoptim.com^
 ||traffic.adventurefeeds.com^
@@ -267717,6 +267716,7 @@ ad.broadstreetads.com
 ||xml-eu-v4.webmedrtb.com^
 ||xml-eu-v4.xmlwolf.com^
 ||xml-eu-v4.zeusadx.com^
+||xml-eu-v4.zorbitads.com^
 ||xml-eu.3mads.com^
 ||xml-eu.acertb.com^
 ||xml-eu.adcannyxml.com^
@@ -311010,18 +311010,21 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
+||brisecaba.com^
+||crozesubicle.cyou^
 ||demand.supply^$script
-||displaycontentprofit.com^
-||empond.com^
 ||fl.corniercuffed.qpon^
-||lzhkkgtzlksfd.space^
+||idlbjpfuyvqll.site^
 ||macro.adnami.io^
+||mhuvxzugznhdz.website^
+||oerxzdstepphr.store^
 ||paid.outbrain.com^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
 ||skilletperonei.com^
 ||vfgte.com^
 ||wpnrtnmrewunrtok.xyz^
+||yardtoexperience.net^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
 ||2bestoffer.com^$document
@@ -337493,7 +337496,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||stat.enter-system.com^$3p
 ||t.hoood.info^
 ||experianmarketingservices.digital^$3p
-||voluumtlkrnarketing.com^$3p
 ||liod1ours.com^$3p
 ||treasuredata.com^$3p
 ||ladsp.com^$3p
@@ -339549,7 +339551,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||pl01.owen.prolitteris.ch^
 ||test-tns-no.tns-cs.net^
 ||a8.net^$3p
-||a8clk.formasp.jp^
 ||info.mercent.com^
 ||marketing.mgage.com^
 ||marketing.mixpo.com^
@@ -339559,23 +339560,23 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||data.adobedc.net^$3p
 ||metrics.looksmart.com^
 ||metrics.multiview.com^
+||sstats.uascrubs.com^
 ||data.email.tangerine.ca^
-||data.xlsemanal.com^
-||go.onstar.com^
 ||mbox3.offermatica.com^
 ||mbox3e.offermatica.com^
 ||mbox4e.offermatica.com^
 ||mbox6.offermatica.com^
-||metrics.pbteen.com^
 ||metrics.reedbusiness.net^
+||sanl.footlocker.be^
 ||-tmp-logs-metrics.hb.tt.omtrdc.net^
 ||mbox.offermatica.com^
 ||atinternet.com^$3p
 ||xiti.com^$3p
 ||commandersact.com^$3p
-||maxtat.55truck.com^
+||oiwnrl.theory.co.jp^
 ||dataunlocker.com^$3p
 ||cl3ywestv3b5.ru.themoneytizer.com^
+||aqzkl.ergopouch.com^
 ||ensighten.com^$3p
 ||analytics.ensighten.com^
 ||data.privacy.ensighten.com^
@@ -339588,6 +339589,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||euleriancdn.net^$3p
 ||eulerian.net^$3p
 ||etracker.com^$3p
+||tr.zuhause-finder.com^
 ||goatcounter.com^$3p
 ||daraz.com^$3p
 ||-084-gls-223-www-9-k-0brasil.net.daraz.com^
@@ -339614,8 +339616,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||net.quisma.com^
 ||gate.hockeyapp.net.iberostar.com^
 ||at_w_atexxpressdata-c3a3188a23.exxpress.at^
-||data-6dde45f576.paz-online.de^
-||data-927768f668.schaffrath-neuemedien.de^
 ||pool1.ioam.de^
 ||pool2.ioam.de^
 ||pool4.ioam.de^
@@ -339623,25 +339623,27 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||track.st.dbfocus.jp^
 ||1to1dialogue.thunderhead.com^
 ||sw.broadcom.com^
+||stats.visions.ch^
 ||rt.vprtrfc.com^
 ||trck.bestonlinecasino.club^
 ||cloud.conversion.pl^
-||gtm.silmasairaalapilke.com^
+||data.comforth.se^
 ||load.gtm.hurra.com^
 ||load.sgtm.reseller.bannerheld.de^
 ||load.sgtm.tennis-point.de^
-||cdn.1lifefiresafety.com^
-||cf.championvalleypark.com^
-||gtm.transpirex.com.br^
+||s1.bkjn.nl^
+||ss.globalsat.gr^
+||sst.cnc24.com^
+||ga.xn--hngemattewelt-bfb.de^
 ||load.sgtm.joga.dk^
 ||load.sst.colemanfurniture.com^
 ||metrics.ezmob.com^
-||server.alhurmat.xyz^
-||sgtm.dotstech.com^
+||server.provisaocompany.com^
 ||sgtm.richads.com^
+||ss.duurzaamxl.nl^
+||sst.lmove.com.br^
 ||stape.clickguard.com^
 ||stape.matsato.com^
-||sub.moonlightmakers.com^
 ||webtrekk.com^$3p
 ||webtrekk-asia.net^$3p
 ||webtrekk-us.net^$3p
@@ -339651,7 +339653,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||tags.news.com.au^$~script
 ||servt.ergadx.com^
 ||users.vidy.st^$3p
-||tracker-proxy.getmimo.com^
 ||hentaitoon.tv/api/track
 ||eu-south-2.alb.pulse.perfmetrics.netflix.com^
 ||events.insiad.com^
@@ -339659,7 +339660,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||jzq915.playmobil.com^ы
 ||valnet.sentinelpro.com^
 ||e.aimerce.ai^
-||tagging.la-toulousaine.com^
 ||track-events.membrana.media^
 ||log.onmas.kt.com^
 ||events.app-performance.music.amazon.dev^
@@ -656890,7 +656890,6 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 @@||yandex.ru/webvisor/$xhr,domain=anoncer.net
 @@||blocket.se^*/xtcore.js
 @@||reseguiden.se^*.siteCatalyst.js
-||captivatingperformance.com^
 ||oceancloudhosts.com^$~xhr
 ||d21y75miwcfqoq.cloudfront.net/436f3341$image,redirect=noop.txt
 247sports.com,cbsnews.com,cbssports.com,indiewire.com,nypost.com,pagesix.com,pennlive.com##+js(rmnt, script, "data-adm-url")
@@ -682360,7 +682359,7 @@ minne.com##aside[class^="MinneAppBanner_root_"]
 forum.donanimhaber.com,mobile.donanimhaber.com##.open-with-app
 tieba.baidu.com##.tb-forum-user__join-btn
 wear.jp##span[style="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"]:has(> img[src^="/public/_next/static/media/want_banner."])
-wear.jp##.xl\:hidden > div.bg-gray-200.py-2:contains(���プリなら)
+wear.jp##.xl\:hidden > div.bg-gray-200.py-2:contains(アプリなら)
 wear.jp##.sticky.top-0.z-header.xl\:hidden:contains(アプリで開く)
 wear.jp##.sticky.top-0.z-header + div.sticky.z-header.top-\[45px\].xl\:top-0:style(top: 0 !important;)
 wear.jp##.fixed.inset-0.z-modal-base.xl\:w-\[600px\][role="dialog"][aria-modal="true"]:contains(アプリで開く):style(display: none !important;)
@@ -687430,7 +687429,7 @@ news.2chblog.jp##.column-inner-2 > .headline
 himasoku.com##.article-body-more > iframe[src^="http://himasoku.com/"][width]
 toushichannel.net##.article-body-more > div[style="font-size: small;"]:contains(中間おすすめ記事) > *:not(.t_h)
 toushichannel.net##article .bottom-link
-gadget2ch.com##.posts-inner:contains(/他サイト様人気記事|こち���もオススメ/)
+gadget2ch.com##.posts-inner:contains(/他サイト様人気記事|こちらもオススメ/)
 momon-ga.com##.blgo18-post-list
 koe-koe.com###nanmv
 shikotch.in###news
@@ -692072,6 +692071,7 @@ wss://*.xyz:*?e=$3p
 wss://*.xyz:*?x=$3p
 wss://*/api/wss/GetNotReadCount$3p
 ||allyes.$3p
+||sprinkler69.com^
 ||1133.cc^$3p
 ||1188.com^$3p
 ||1fxs.com^$3p
@@ -692238,6 +692238,7 @@ $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
 ||supfree.net^$xhr
 ||tklivechat.com/widgets/$3p
 ||trafficjam.cn^$3p
+||xwcm.net/caches/ahm.
 114la.com##.sortItem:has(> dIV[class] > .FeedADClose)
 1point3acres.com##div[id^="portal_block"]:has(a[href*="fiverr.com"])
 2345.com##.pic:has(a[href^="http://g.wan."])
@@ -692245,6 +692246,7 @@ $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
 423down.com##li:has(> .info > .cat > a[rel="category tag"]:contains(推广))
 423down.com##li:has(> .item-thumb > .item-category:contains(推广))
 423down.com##li:has(> .pic[href^="http"]:not([href*="423down."]))
+3czol.com##[class^="ban_"]
 ablesci.com##.fly-panel:has(img[src*="-hongbao."])
 amazon.cn##.s-result-item:has(> .s-item-container > h5 .s-sponsored-info-icon)
 appinn.com##.featured-section > .test:has(> .post-img > a[href^="http"]:not([href*="appinn."]))
