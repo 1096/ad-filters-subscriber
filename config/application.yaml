@@ -135,7 +135,7 @@ application:
 
     - name: "anti-ad"
       path: "https://anti-ad.net/easylist.txt"
-      type: hosts
+      type: easylist
 
     # 小说专项
     - name: "Fqnovel Ad Rules"
