@@ -1,6 +1,6 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-08 04:41:51
-! Total Size: 1013159
+! Last Modified: 2026-11-08 04:46:19
+! Total Size: 1013162
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 ||trambelongedallure.com^
 ||contuselegator.com^
@@ -267447,6 +267447,7 @@ ad.broadstreetads.com
 ||login.acertb.com^
 ||login.ad-maven.com^
 ||login.additionalmedia.com^
+||login.adexone.com^
 ||login.adjux.com^
 ||login.adkmbc.com^
 ||login.admanmedia.com^
@@ -267674,7 +267675,6 @@ ad.broadstreetads.com
 ||sw.looksmart.com^
 ||sync.adkernel.com^
 ||tag.adkernel.com^
-||tq-eu.flowldsd.online^
 ||tq.adventurefeeds.com^
 ||track.adoptim.com^
 ||traffic.adventurefeeds.com^
@@ -311010,16 +311010,18 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
-||bloblohub.com^
+||aeoldjkiutpwj.site^
+||certainwolveshonestly.com^
 ||demand.supply^$script
+||effectivecreativeformat.com^
+||fibendlesslydecoction.com^
 ||fl.corniercuffed.qpon^
-||iqoczawzdbpai.space^
-||lchtraf.com^
+||fyjnfqbqtnfxz.site^
 ||macro.adnami.io^
-||mwztyflmatxei.site^
 ||paid.outbrain.com^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
+||skilletperonei.com^
 ||wpnrtnmrewunrtok.xyz^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
@@ -332285,7 +332287,7 @@ cruxnow.com##.grid > div.w-full > div[class^="flex"]:has(> div[class] > div[id^=
 ||2ch-c.net/mgs/
 2ch-c.net##.cdt_wrapper
 2ch-c.net##a[href="mgs/mgs.php"]
-baomoi.com###content-main > div[class] > div[class] > div[class]:has(> div[class] > a[href] div button[title="Báo l��i"])
+baomoi.com###content-main > div[class] > div[class] > div[class]:has(> div[class] > a[href] div button[title="Báo lôi"])
 spite.cz##.sda-space--mobile
 geo.fr##.ads-introText
 wtmnews.net##.entry-content > p:has(> a[target="_blank"][rel="nofollow sponsored "] > img)
@@ -335985,7 +335987,7 @@ radio.net##div[data-testid="RAD_NET_M_Search_Middle"] > div#RAD_NET_M_Search_Mid
 slovoidilo.ua##+js(remove-class, branding, body)
 0629.com.ua##.linked-block > div.card-wrapper:has(> div.c-card > div.c-card__subinfo > div.c-card-label:contains(Реклама))
 chansoku.com###article-contents > span:contains(スポンサードリンク)
-chansoku.com##.lattice-interres-standby > span:contains(スポンサ��ドリンク)
+chansoku.com##.lattice-interres-standby > span:contains(スポンサードリンク)
 aaieba.livedoor.biz##div[align="center"] > table:has(a[href*="amazon.co.jp/"])
 profile.ru##.main > div.container-fluid > div > div.float-right:contains(/^\s{8} $/)
 app.famitsu.com##.news_section > ul > li > div.adcloud_frame:upward(1)
@@ -692074,6 +692076,7 @@ wss://*/api/wss/GetNotReadCount$3p
 ||258zw.com^$3p
 ||2hiu.com^$3p
 ||3798.com^$3p
+||4d45i6p0g.com^
 ||5399.com^$3p
 ||6789.net^$3p
 ||7794.com^$3p

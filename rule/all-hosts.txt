@@ -1,6 +1,6 @@
 # ADFS AdBlock hosts
-# Last Modified: 2026-11-08 04:41:52
-# Total Size: 515206
+# Last Modified: 2026-11-08 04:46:19
+# Total Size: 515205
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 0.0.0.0	trambelongedallure.com
 0.0.0.0	contuselegator.com
@@ -223673,7 +223673,6 @@
 0.0.0.0	www.goaserv.com
 0.0.0.0	www.hd-wallpaper.goasrv.com
 0.0.0.0	www.lombard.goasrv.com
-0.0.0.0	www.swroch.goaserv.com
 0.0.0.0	www.utstat.goasrv.com
 0.0.0.0	www1.hkuspace.goaserv.com
 0.0.0.0	www38.receita.goasrv.com

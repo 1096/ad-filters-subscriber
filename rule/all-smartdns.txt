@@ -1,6 +1,6 @@
 # ADFS AdBlock smartdns
-# Last Modified: 2026-11-08 04:41:51
-# Total Size: 515561
+# Last Modified: 2026-11-08 04:46:19
+# Total Size: 515560
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 address /trambelongedallure.com/#
 address /contuselegator.com/#
@@ -223997,7 +223997,6 @@ address /www.arso.goaserv.com/#
 address /www.goaserv.com/#
 address /www.hd-wallpaper.goasrv.com/#
 address /www.lombard.goasrv.com/#
-address /www.swroch.goaserv.com/#
 address /www.utstat.goasrv.com/#
 address /www1.hkuspace.goaserv.com/#
 address /www38.receita.goasrv.com/#
