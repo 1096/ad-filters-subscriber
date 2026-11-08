@@ -1,6 +1,6 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-08 04:27:34
-! Total Size: 1013166
+! Last Modified: 2026-11-08 04:41:51
+! Total Size: 1013159
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 ||trambelongedallure.com^
 ||contuselegator.com^
@@ -267674,6 +267674,7 @@ ad.broadstreetads.com
 ||sw.looksmart.com^
 ||sync.adkernel.com^
 ||tag.adkernel.com^
+||tq-eu.flowldsd.online^
 ||tq.adventurefeeds.com^
 ||track.adoptim.com^
 ||traffic.adventurefeeds.com^
@@ -267716,7 +267717,6 @@ ad.broadstreetads.com
 ||xml-eu-v4.webmedrtb.com^
 ||xml-eu-v4.xmlwolf.com^
 ||xml-eu-v4.zeusadx.com^
-||xml-eu-v4.zorbitads.com^
 ||xml-eu.3mads.com^
 ||xml-eu.acertb.com^
 ||xml-eu.adcannyxml.com^
@@ -311010,21 +311010,17 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
-||brisecaba.com^
-||crozesubicle.cyou^
+||bloblohub.com^
 ||demand.supply^$script
 ||fl.corniercuffed.qpon^
-||idlbjpfuyvqll.site^
+||iqoczawzdbpai.space^
+||lchtraf.com^
 ||macro.adnami.io^
-||mhuvxzugznhdz.website^
-||oerxzdstepphr.store^
+||mwztyflmatxei.site^
 ||paid.outbrain.com^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
-||skilletperonei.com^
-||vfgte.com^
 ||wpnrtnmrewunrtok.xyz^
-||yardtoexperience.net^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
 ||2bestoffer.com^$document
@@ -332289,7 +332285,7 @@ cruxnow.com##.grid > div.w-full > div[class^="flex"]:has(> div[class] > div[id^=
 ||2ch-c.net/mgs/
 2ch-c.net##.cdt_wrapper
 2ch-c.net##a[href="mgs/mgs.php"]
-baomoi.com###content-main > div[class] > div[class] > div[class]:has(> div[class] > a[href] div button[title="Báo lôi"])
+baomoi.com###content-main > div[class] > div[class] > div[class]:has(> div[class] > a[href] div button[title="Báo l��i"])
 spite.cz##.sda-space--mobile
 geo.fr##.ads-introText
 wtmnews.net##.entry-content > p:has(> a[target="_blank"][rel="nofollow sponsored "] > img)
@@ -335989,7 +335985,7 @@ radio.net##div[data-testid="RAD_NET_M_Search_Middle"] > div#RAD_NET_M_Search_Mid
 slovoidilo.ua##+js(remove-class, branding, body)
 0629.com.ua##.linked-block > div.card-wrapper:has(> div.c-card > div.c-card__subinfo > div.c-card-label:contains(Реклама))
 chansoku.com###article-contents > span:contains(スポンサードリンク)
-chansoku.com##.lattice-interres-standby > span:contains(スポンサードリンク)
+chansoku.com##.lattice-interres-standby > span:contains(スポンサ��ドリンク)
 aaieba.livedoor.biz##div[align="center"] > table:has(a[href*="amazon.co.jp/"])
 profile.ru##.main > div.container-fluid > div > div.float-right:contains(/^\s{8} $/)
 app.famitsu.com##.news_section > ul > li > div.adcloud_frame:upward(1)
@@ -692071,7 +692067,6 @@ wss://*.xyz:*?e=$3p
 wss://*.xyz:*?x=$3p
 wss://*/api/wss/GetNotReadCount$3p
 ||allyes.$3p
-||sprinkler69.com^
 ||1133.cc^$3p
 ||1188.com^$3p
 ||1fxs.com^$3p
@@ -692238,7 +692233,6 @@ $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
 ||supfree.net^$xhr
 ||tklivechat.com/widgets/$3p
 ||trafficjam.cn^$3p
-||xwcm.net/caches/ahm.
 114la.com##.sortItem:has(> dIV[class] > .FeedADClose)
 1point3acres.com##div[id^="portal_block"]:has(a[href*="fiverr.com"])
 2345.com##.pic:has(a[href^="http://g.wan."])
@@ -692246,7 +692240,6 @@ $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
 423down.com##li:has(> .info > .cat > a[rel="category tag"]:contains(推广))
 423down.com##li:has(> .item-thumb > .item-category:contains(推广))
 423down.com##li:has(> .pic[href^="http"]:not([href*="423down."]))
-3czol.com##[class^="ban_"]
 ablesci.com##.fly-panel:has(img[src*="-hongbao."])
 amazon.cn##.s-result-item:has(> .s-item-container > h5 .s-sponsored-info-icon)
 appinn.com##.featured-section > .test:has(> .post-img > a[href^="http"]:not([href*="appinn."]))

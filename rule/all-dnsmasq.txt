@@ -1,6 +1,6 @@
 # ADFS AdBlock dnsmasq
-# Last Modified: 2026-11-08 04:27:34
-# Total Size: 515205
+# Last Modified: 2026-11-08 04:41:51
+# Total Size: 515206
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 address=/trambelongedallure.com/
 address=/contuselegator.com/
@@ -225105,6 +225105,7 @@ address=/d343ed148c.ac173c41a1.com/
 address=/d34cda4b3f.6c1afc5b6b.com/
 address=/d3abf33f94.98d4403b02.com/
 address=/d45d1190e0.61edd03ae1.com/
+address=/d49fd393df.0cc9ed5f1c.com/
 address=/d5cec34ce9.434fc6fff7.com/
 address=/d5fe66f0c2.88c75a2494.com/
 address=/d6048b93b7.09e07385f6.com/
