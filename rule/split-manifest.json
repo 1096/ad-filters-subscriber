@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "max_bytes": 7000000,
+  "files": {
+    "all-clash.yaml": [
+      "all-clash.yaml",
+      "all-clash-2.yaml",
+      "all-clash-3.yaml"
+    ],
+    "all-dns.txt": [
+      "all-dns.txt",
+      "all-dns-2.txt"
+    ],
+    "all-dnsmasq.txt": [
+      "all-dnsmasq.txt",
+      "all-dnsmasq-2.txt",
+      "all-dnsmasq-3.txt"
+    ],
+    "all-easylist.txt": [
+      "all-easylist.txt",
+      "all-easylist-2.txt",
+      "all-easylist-3.txt",
+      "all-easylist-4.txt",
+      "all-easylist-5.txt"
+    ],
+    "all-hosts.txt": [
+      "all-hosts.txt",
+      "all-hosts-2.txt",
+      "all-hosts-3.txt"
+    ],
+    "all-smartdns.txt": [
+      "all-smartdns.txt",
+      "all-smartdns-2.txt",
+      "all-smartdns-3.txt"
+    ]
+  }
+}
