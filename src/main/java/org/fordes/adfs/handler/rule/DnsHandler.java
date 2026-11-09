@@ -67,6 +67,34 @@ public final class DnsHandler extends EasylistHandler{
             return null;
         }
 
+        if (rule.getType() == Rule.Type.WILDCARD) {
+            StringBuilder regex = new StringBuilder();
+            if (rule.getMode() == Rule.Mode.ALLOW) {
+                regex.append(DOUBLE_AT);
+            }
+            regex.append(Symbol.SLASH);
+            if (rule.getControls().contains(Rule.Control.OVERLAY)) {
+                regex.append("(^|\\.)");
+            }
+            for (char character : rule.getTarget().toCharArray()) {
+                if (character == '*') {
+                    regex.append(".*");
+                } else if (character == '.') {
+                    regex.append("\\.");
+                } else {
+                    regex.append(character);
+                }
+            }
+            if (rule.getControls().contains(Rule.Control.QUALIFIER)) {
+                regex.append('$');
+            }
+            regex.append(Symbol.SLASH);
+            if (rule.getControls().contains(Rule.Control.IMPORTANT)) {
+                regex.append(Symbol.DOLLAR).append(IMPORTANT);
+            }
+            return regex.toString();
+        }
+
         StringBuilder builder = new StringBuilder();
 
         // 添加模式前缀
@@ -82,13 +110,7 @@ public final class DnsHandler extends EasylistHandler{
         }
 
         // 添加目标规则
-        if (rule.getType() == Rule.Type.WILDCARD) {
-            builder.append(Constants.Symbol.SLASH)
-                    .append(rule.getTarget())
-                    .append(Constants.Symbol.SLASH);
-        } else {
-            builder.append(rule.getTarget());
-        }
+        builder.append(rule.getTarget());
 
         // 添加限定符标记
         if (controls.contains(Rule.Control.QUALIFIER)) {

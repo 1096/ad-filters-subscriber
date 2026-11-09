@@ -54,6 +54,9 @@ jobs:
       - name: Test rule splitting
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
 
+      - name: Test Java rule handling
+        run: mvn test
+
       - name: Run Jar
         run:  mvn spring-boot:run -Dspring-boot.run.profiles=${{ steps.defaults.outputs.profile }}
 
