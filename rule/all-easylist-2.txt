@@ -1,6 +1,6 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-09 11:45:51
-! Total Size: 1003446
+! Last Modified: 2026-11-09 12:05:18
+! Total Size: 1003455
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 colnect.com##+js(set-constant, CAD.possiblyShowAdblockWarning, noopFunc)
 colnect.com##.main_page > div[style^="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background"][style*="z-index:"]
@@ -37683,7 +37683,7 @@ gumtree.co.za#@#.menu-ads
 @@||tn.voyeurhit.com^$domain=voyeurhit.tube
 iphoneincanada.ca#@#a[href^="https://click.linksynergy.com/fs-bin/"]
 @@||cgchannel.com/wp-content/uploads/*_Advertorial_*.jpg
-instagram.com#@#article[class] > div[class]:has(span:contains(/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
+instagram.com#@#article[class] > div[class]:has(span:contains(/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ���ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
 instagram.com#@#article[role="presentation"] > div[style]:has(span:contains(/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
 instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:contains(Paid partnership with ))
 @@||nakanohito.jp^*/bi.js$domain=myna.go.jp
@@ -41228,15 +41228,19 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
+||arvalgasman.shop^
+||cjvdfw.com^
 ||content-loader.com^
 ||demand.supply^$script
 ||ephrvhtwhffar.website^
+||excavatedefeatedshudder.com^
 ||fl.corniercuffed.qpon^
 ||guadscfwaweae.site^
 ||hntczfbfbsvhe.website^
 ||iuaxqqpzqkpvz.space^
 ||ixngopmimflal.website^
 ||jxxhxinkpdlvb.website^
+||kxtzixtkfdihg.space^
 ||macro.adnami.io^
 ||nbqodmcrxrjks.online^
 ||nyvlwjvxrmoqb.space^
@@ -41244,10 +41248,14 @@ browsershots.org#@#.advert_area
 ||puukszmn.com^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
-||scorchobservedsow.com^
+||rusenov.com^
+||soholfit.com^
 ||uoztjrkrqugni.site^
 ||valueendogen.com^
+||vazxcosicx.in^
+||wairingcheney.com^
 ||wpnrtnmrewunrtok.xyz^
+||zgslxodiumsly.site^
 ||zhwsixguoj.com^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
@@ -46563,6 +46571,7 @@ browsershots.org#@#.advert_area
 ||d3584kspbipfh3.cloudfront.net/cm/
 ||d3mmnnn9s2dcmq.cloudfront.net/shim/embed.js
 ||d85wutc1n854v.cloudfront.net^$domain=~wrapbootstrap.com
+||duy1ol4n1csnp.cloudfront.net^
 ||googleapis.com/qmftp/$script
 ||123-stream.org^$popup
 ||1winpb.com^$popup
@@ -158682,8 +158691,3 @@ email.email.oaktreecreatives.com$image
 email.email.oakvilleshops.net$image
 email.email.oakvinebuilds.com$image
 email.email.oasiormonale.com$image
-email.email.oasisheatingandair.feedbackfleet.co$image
-email.email.oasishvacpro.com$image
-email.email.obaatanwomen.com$image
-email.email.obedhernandezconsultant.com$image
-email.email.oberthrealestategh.com$image

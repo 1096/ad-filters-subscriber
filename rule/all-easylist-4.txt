@@ -1,7 +1,14 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-09 11:45:51
-! Total Size: 1003446
+! Last Modified: 2026-11-09 12:05:18
+! Total Size: 1003455
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+email.yourdogsfavoriteplumber.com$image
+email.youreventsteamemail.com$image
+email.yourexpertghlspecialist.online$image
+email.youreyedoctor.info$image
+email.yourfgp.com$image
+email.yourfrontline.com$image
+email.yourfuturestrategy.com.au$image
 email.yourholidays.com.au$image
 email.yourholisticwellness.co$image
 email.yourhomeimprovementcompanies.com$image
@@ -61810,6 +61817,7 @@ wss://*.xyz:*?e=$3p
 wss://*.xyz:*?x=$3p
 wss://*/api/wss/GetNotReadCount$3p
 ||allyes.$3p
+||gi7n1lmo4o.com^
 ||1133.cc^$3p
 ||1188.com^$3p
 ||1fxs.com^$3p
@@ -61976,7 +61984,6 @@ $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
 ||supfree.net^$xhr
 ||tklivechat.com/widgets/$3p
 ||trafficjam.cn^$3p
-mail.pchome.com.tw##.good_ad
 114la.com##.sortItem:has(> dIV[class] > .FeedADClose)
 1point3acres.com##div[id^="portal_block"]:has(a[href*="fiverr.com"])
 2345.com##.pic:has(a[href^="http://g.wan."])
@@ -62089,7 +62096,6 @@ zhihu.com##.TopstoryItem:has(.Popover > .TopstoryItem-advertButton)
 zzbaike.com##.ceo-margin-bottom:has(img[width="340"])
 @@||10086.cn^*/ad$~3p
 @@||acgdraw.com/ad$xhr
-@@||ad.12306.cn^$elemhide,subdocument,domain=95306.cn
 @@||ad.vivo.com.cn^$~3p
 @@||adnet.qq.com^$~3p
 @@||ads.alafish.cn^$~3p
@@ -62175,6 +62181,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.c-container:has(.
 ||chnci.com^$3p
 ||chunyuqiufeng.com^$3p
 ||dnpz123.com^$3p
+||er.5ykj.com^
 ||ergeapp.com^$3p
 ||fjzimaoqu.cn^$3p
 ||gocye.com^$3p
@@ -189773,8 +189780,3 @@ allegrolokalne.pl-oferta754f5f543.click
 allegrolokalne.pl-oferta75h547f4.click
 allegrolokalne.pl-oferta7845hf5f.shop
 allegrolokalne.pl-oferta7891241924.sbs
-allegrolokalne.pl-oferta836hdhye3.click
-allegrolokalne.pl-oferta84df858hf4d.click
-allegrolokalne.pl-oferta857715ha1.click
-allegrolokalne.pl-oferta85fj598f.click
-allegrolokalne.pl-oferta874f5h5.click

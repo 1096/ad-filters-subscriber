@@ -1,7 +1,12 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-09 11:45:51
-! Total Size: 1003446
+! Last Modified: 2026-11-09 12:05:18
+! Total Size: 1003455
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+email.email.oasisheatingandair.feedbackfleet.co$image
+email.email.oasishvacpro.com$image
+email.email.obaatanwomen.com$image
+email.email.obedhernandezconsultant.com$image
+email.email.oberthrealestategh.com$image
 email.email.obimarketing.com.au$image
 email.email.obkladacskeprace-suster.cz$image
 email.email.obmhub.com$image
@@ -201817,10 +201822,3 @@ email.yourcypress.com$image
 email.yourdictionary.com$image
 email.yourdnastory.net$image
 email.yourdocket.com$image
-email.yourdogsfavoriteplumber.com$image
-email.youreventsteamemail.com$image
-email.yourexpertghlspecialist.online$image
-email.youreyedoctor.info$image
-email.yourfgp.com$image
-email.yourfrontline.com$image
-email.yourfuturestrategy.com.au$image
