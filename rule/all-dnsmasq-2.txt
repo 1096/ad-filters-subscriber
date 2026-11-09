@@ -1,7 +1,8 @@
 # ADFS AdBlock dnsmasq
-# Last Modified: 2026-11-09 11:34:44
-# Total Size: 505401
+# Last Modified: 2026-11-09 11:45:51
+# Total Size: 505402
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+address=/wave.outbrain.com/
 address=/ad.twinrdengine.com/
 address=/ads.betweendigital.com/
 address=/ads.digital.disneyadvertising.com/
@@ -226479,4 +226480,3 @@ address=/saharaagate.com/
 address=/sahetju.shop/
 address=/sahibindenalisveris-trparanguvende-mobildepartmani.com/
 address=/sahibindenkira.com/
-address=/sahiblerden.com/

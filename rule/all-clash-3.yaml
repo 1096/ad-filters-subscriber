@@ -1,8 +1,9 @@
 #ADFS AdBlock clash
-#Last Modified: 2026-11-09 11:34:44
-#Total Size: 506417
+#Last Modified: 2026-11-09 11:45:51
+#Total Size: 506418
 #Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 payload:
+  - "zpnet328.eu.cc"
   - "zpnet328.web.id"
   - "zpokojuobok.pro"
   - "zpokojuobokpokojuwsrodku.pro"

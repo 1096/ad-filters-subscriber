@@ -1,6 +1,6 @@
 # ADFS AdBlock dnsmasq
-# Last Modified: 2026-11-09 11:34:44
-# Total Size: 505401
+# Last Modified: 2026-11-09 11:45:51
+# Total Size: 505402
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 address=/trambelongedallure.com/
 address=/contuselegator.com/
@@ -224624,6 +224624,7 @@ address=/lphmt.go-static.info/
 address=/lucidesapiens.go-static.info/
 address=/luckypreg.go-static.info/
 address=/m.fotoservice.go-static.info/
+address=/m.go-static.info/
 address=/m.investir.go-static.info/
 address=/m.jagbani.go-static.info/
 address=/m.paladini.go-static.info/
@@ -227602,4 +227603,3 @@ address=/static-rtb2demo.adkernel.com/
 address=/adserve.adradar.io/
 address=/adsrv.eacdn.com/
 address=/az-neverblock.aznude.workers.dev/
-address=/wave.outbrain.com/

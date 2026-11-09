@@ -1,6 +1,6 @@
 #ADFS AdBlock clash
-#Last Modified: 2026-11-09 11:34:44
-#Total Size: 506417
+#Last Modified: 2026-11-09 11:45:51
+#Total Size: 506418
 #Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 payload:
   - "+.trambelongedallure.com"
@@ -225531,6 +225531,7 @@ payload:
   - "+.lucidesapiens.go-static.info"
   - "+.luckypreg.go-static.info"
   - "+.m.fotoservice.go-static.info"
+  - "+.m.go-static.info"
   - "+.m.investir.go-static.info"
   - "+.m.jagbani.go-static.info"
   - "+.m.paladini.go-static.info"
@@ -244613,4 +244614,3 @@ payload:
   - "id.get35.com"
   - "ieginc.com"
   - "iframes.awempire.com"
-  - "iframes.perfectgonzo.com"

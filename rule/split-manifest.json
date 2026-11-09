@@ -1,6 +1,7 @@
 {
   "version": 1,
   "max_bytes": 7000000,
+  "max_lines": 400000,
   "files": {
     "all-clash.yaml": [
       "all-clash.yaml",

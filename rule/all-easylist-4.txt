@@ -1,21 +1,7 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-09 11:34:44
-! Total Size: 1003459
+! Last Modified: 2026-11-09 11:45:51
+! Total Size: 1003446
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
-email.yourcoaches.themodernculture.com$image
-email.yourcoachingcall.io$image
-email.yourconsultinghub.info$image
-email.yourcypress.com$image
-email.yourdictionary.com$image
-email.yourdnastory.net$image
-email.yourdocket.com$image
-email.yourdogsfavoriteplumber.com$image
-email.youreventsteamemail.com$image
-email.yourexpertghlspecialist.online$image
-email.youreyedoctor.info$image
-email.yourfgp.com$image
-email.yourfrontline.com$image
-email.yourfuturestrategy.com.au$image
 email.yourholidays.com.au$image
 email.yourholisticwellness.co$image
 email.yourhomeimprovementcompanies.com$image
@@ -26631,6 +26617,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 @@||yandex.ru/webvisor/$xhr,domain=anoncer.net
 @@||blocket.se^*/xtcore.js
 @@||reseguiden.se^*.siteCatalyst.js
+||binspiredtees.com^
 ||oceancloudhosts.com^$~xhr
 ||rankaddict.com^
 ||fashionista.com/.api/admiral
@@ -88617,6 +88604,7 @@ doctorofcredit.com#@#.wpdiscuz-subscribe-bar
 ||assets.ilcdn.fi/questback.popup-$script,domain=iltalehti.fi
 ||astian.org/?push_notification_sw
 ||bdstatic.com/linksubmit/push.js
+||dailymail.co.uk/api/web-push-notification/
 ||diabetes.co.uk/wp-content/themes/spotlight/src/sw.js
 ||gadgetsnow.com/sw.cms
 ||gstatic.com/firebasejs/$domain=joins.com|kompas.com|novayagazeta.eu|packaginginsights.com
@@ -189780,3 +189768,13 @@ allegrolokalne.pl-oferta635h5fs7h.click
 allegrolokalne.pl-oferta73072399.click
 allegrolokalne.pl-oferta7353hd6hd.click
 allegrolokalne.pl-oferta736hdt6fe.click
+allegrolokalne.pl-oferta745hf65.shop
+allegrolokalne.pl-oferta754f5f543.click
+allegrolokalne.pl-oferta75h547f4.click
+allegrolokalne.pl-oferta7845hf5f.shop
+allegrolokalne.pl-oferta7891241924.sbs
+allegrolokalne.pl-oferta836hdhye3.click
+allegrolokalne.pl-oferta84df858hf4d.click
+allegrolokalne.pl-oferta857715ha1.click
+allegrolokalne.pl-oferta85fj598f.click
+allegrolokalne.pl-oferta874f5h5.click

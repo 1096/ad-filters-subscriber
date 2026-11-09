@@ -1,6 +1,6 @@
 # ADFS AdBlock hosts
-# Last Modified: 2026-11-09 11:34:44
-# Total Size: 505401
+# Last Modified: 2026-11-09 11:45:51
+# Total Size: 505402
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 0.0.0.0	trambelongedallure.com
 0.0.0.0	contuselegator.com
@@ -224624,6 +224624,7 @@
 0.0.0.0	lucidesapiens.go-static.info
 0.0.0.0	luckypreg.go-static.info
 0.0.0.0	m.fotoservice.go-static.info
+0.0.0.0	m.go-static.info
 0.0.0.0	m.investir.go-static.info
 0.0.0.0	m.jagbani.go-static.info
 0.0.0.0	m.paladini.go-static.info
@@ -243498,4 +243499,3 @@
 0.0.0.0	foreclousure.com
 0.0.0.0	foreclousures.com
 0.0.0.0	forex-instruments.info
-0.0.0.0	formessengers.com

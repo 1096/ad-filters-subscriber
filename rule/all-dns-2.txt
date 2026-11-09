@@ -1,7 +1,8 @@
 ! ADFS AdBlock dns
-! Last Modified: 2026-11-09 11:34:44
-! Total Size: 506866
+! Last Modified: 2026-11-09 11:45:51
+! Total Size: 506867
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+ad.inter-edu.com
 ad.jorudan.co.jp
 ad.linkshare.ne.jp
 ad.mediba.jp

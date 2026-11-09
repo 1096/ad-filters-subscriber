@@ -1,8 +1,7 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-09 11:34:44
-! Total Size: 1003459
+! Last Modified: 2026-11-09 11:45:51
+! Total Size: 1003446
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
-ncaa.com##+js(prevent-fetch, adsbygoogle)
 colnect.com##+js(set-constant, CAD.possiblyShowAdblockWarning, noopFunc)
 colnect.com##.main_page > div[style^="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background"][style*="z-index:"]
 qload.info##.adb
@@ -41233,11 +41232,9 @@ browsershots.org#@#.advert_area
 ||demand.supply^$script
 ||ephrvhtwhffar.website^
 ||fl.corniercuffed.qpon^
-||grqjdjpkfgbda.site^
 ||guadscfwaweae.site^
 ||hntczfbfbsvhe.website^
 ||iuaxqqpzqkpvz.space^
-||iwyzycodonzlm.website^
 ||ixngopmimflal.website^
 ||jxxhxinkpdlvb.website^
 ||macro.adnami.io^
@@ -41247,9 +41244,8 @@ browsershots.org#@#.advert_area
 ||puukszmn.com^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
-||rqmgessslopfy.online^
+||scorchobservedsow.com^
 ||uoztjrkrqugni.site^
-||upkmxceubeyuz.space^
 ||valueendogen.com^
 ||wpnrtnmrewunrtok.xyz^
 ||zhwsixguoj.com^
@@ -57383,7 +57379,7 @@ kohls.com##[component-export="KmnMarqueeBannerWrapper"]:contains(Sponsored)
 kohls.com##[id^="kmn-leaderboard-"]:contains(Sponsored)
 kslnewsradio.com,ksltv.com,ktar.com##.wrapper:contains(Sponsored Articles)
 leadership.ng##.jeg_postblock:contains(SPONSORED)
-linkedin.com##.msg-overlay-list-bubble__conversations-list:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการ��ปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/)
+linkedin.com##.msg-overlay-list-bubble__conversations-list:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/)
 linkedin.com##[componentkey*="MAIN_FEED_RECENT"] > [data-display-contents]:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/)
 linkedin.com##[componentkey*="MAIN_FEED_RECENT"] > div[role="listitem"] > [data-display-contents]:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/)
 linkedin.com##[componentkey*="MAIN_FEED_RELEVANCE"] > [data-display-contents]:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/)
@@ -69783,11 +69779,10 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||pl01.owen.prolitteris.ch^
 ||test-tns-no.tns-cs.net^
 ||a8.net^$3p
-||a8itp.bitoka-japan.com^
+||marketing.visitaugusta.com^
 ||info.mercent.com^
 ||marketing.mgage.com^
 ||marketing.mixpo.com^
-||marketing.sparinvest.lu^
 ||marketing.velti.com^
 ||acweb.clog.jp^$3p
 ||ad.kddi-fs.com^
@@ -69799,19 +69794,16 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||mbox3e.offermatica.com^
 ||mbox4e.offermatica.com^
 ||mbox6.offermatica.com^
-||smetrics.bi-connect.com^
-||smetrics.iq.cropscience.bayer.com^
-||smetrics.yervoy.com^
-||adbmetrics.vidasolidaria.com^
 ||metrics.reedbusiness.net^
+||smetrics.absolutetotalcare.com^
 ||-tmp-logs-metrics.hb.tt.omtrdc.net^
 ||mbox.offermatica.com^
 ||atinternet.com^$3p
 ||xiti.com^$3p
 ||commandersact.com^$3p
-||nxhqso.nordicnest.se^
 ||dataunlocker.com^$3p
 ||cl3ywestv3b5.ru.themoneytizer.com^
+||ubhur.rothys.com^
 ||ensighten.com^$3p
 ||analytics.ensighten.com^
 ||data.privacy.ensighten.com^
@@ -69824,7 +69816,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||euleriancdn.net^$3p
 ||eulerian.net^$3p
 ||etracker.com^$3p
-||webstt0005.onofficeom.com^
+||ape.mfj.se^
 ||goatcounter.com^$3p
 ||daraz.com^$3p
 ||-084-gls-223-www-9-k-0brasil.net.daraz.com^
@@ -69855,39 +69847,33 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||pool2.ioam.de^
 ||pool4.ioam.de^
 ||pool5.ioam.de^
-||keyade.uniqlo.com^
-||tr.information.lacollection-airfrance.de^
 ||track.st.dbfocus.jp^
 ||1to1dialogue.thunderhead.com^
 ||sw.broadcom.com^
 ||rt.vprtrfc.com^
 ||trck.bestonlinecasino.club^
 ||cloud.conversion.pl^
-||laura.elements-lighting.fr^
+||data.mysweetstitch.com^
 ||load.gtm.hurra.com^
 ||load.sgtm.reseller.bannerheld.de^
 ||load.sgtm.tennis-point.de^
-||load.sst.aventurecanine.com^
-||sst.hydropeptide.bg^
-||cdn.astoriamag.com^
-||load.sgtm.cloudbeds.com^
+||capi.nexus.edu.sg^
+||gtm.metodoneuroppavalia.com.br^
+||gtm.weapply.net^
 ||load.sgtm.joga.dk^
 ||load.sst.colemanfurniture.com^
+||load.sub.moebelmagasinet.gl^
 ||metrics.ezmob.com^
+||myshop.usatradingdepot.com^
 ||sgtm.richads.com^
-||ss.apeaze.com^
-||sst.kidsy.co^
+||sst.euromix-bd.com^
 ||stape.clickguard.com^
 ||stape.matsato.com^
-||stapeio.ogruposante.com^
-||t.banxclothing.com.au^
-||web.arenawebsecurity.net^
 ||webtrekk.com^$3p
 ||webtrekk-asia.net^$3p
 ||webtrekk-us.net^$3p
 ||webtrekk.de^$3p
 ||webtrekk.net^$3p
-||startrekk.flaconi.de^
 ||d1udjti6mtxz9q.cloudfront.net^$3p
 ||tags.news.com.au^$~script
 ||stats.vidbolt.pro^
@@ -69996,7 +69982,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||telegraf.detmir-stats.ru^
 ||track.analitycs.net^
 ||track.audtd.com^
-||track.pushbullet.com^
 ||track.securedvisit.com^
 ||track.tcppu.com^
 ||track.websiteceo.com^
@@ -158691,3 +158676,14 @@ email.email.o2treehouse.com$image
 email.email.o3plus.com$image
 email.email.oakhillsweddings.com$image
 email.email.oaklandpark.mlorganicmed.com$image
+email.email.oakleymultiservices.com$image
+email.email.oaknestmedia.com$image
+email.email.oaktreecreatives.com$image
+email.email.oakvilleshops.net$image
+email.email.oakvinebuilds.com$image
+email.email.oasiormonale.com$image
+email.email.oasisheatingandair.feedbackfleet.co$image
+email.email.oasishvacpro.com$image
+email.email.obaatanwomen.com$image
+email.email.obedhernandezconsultant.com$image
+email.email.oberthrealestategh.com$image

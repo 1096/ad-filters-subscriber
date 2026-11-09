@@ -1,6 +1,6 @@
 ! ADFS AdBlock dns
-! Last Modified: 2026-11-09 11:34:44
-! Total Size: 506866
+! Last Modified: 2026-11-09 11:45:51
+! Total Size: 506867
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 ||trambelongedallure.com^
 ||contuselegator.com^
@@ -225946,6 +225946,7 @@ ad.broadstreetads.com
 ||lucidesapiens.go-static.info^
 ||luckypreg.go-static.info^
 ||m.fotoservice.go-static.info^
+||m.go-static.info^
 ||m.investir.go-static.info^
 ||m.jagbani.go-static.info^
 ||m.paladini.go-static.info^
@@ -304222,4 +304223,3 @@ ad.dropbooks.tv
 ad.hatena.ne.jp
 ad.heypo.com
 ad.insight.a-i-ad.com
-ad.inter-edu.com

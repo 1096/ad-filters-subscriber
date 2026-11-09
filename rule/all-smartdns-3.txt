@@ -1,7 +1,8 @@
 # ADFS AdBlock smartdns
-# Last Modified: 2026-11-09 11:34:44
-# Total Size: 505756
+# Last Modified: 2026-11-09 11:45:51
+# Total Size: 505757
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+address /*.okazja-na-lato-2026-34igvr.sbs/#
 address /*.okazja-na-lato-2026-34ogv.sbs/#
 address /*.okazja-na-lato-2026-45b0v.sbs/#
 address /*.okazja-na-lato-2026-o45ig.sbs/#

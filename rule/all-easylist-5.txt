@@ -1,17 +1,7 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-09 11:34:44
-! Total Size: 1003459
+! Last Modified: 2026-11-09 11:45:51
+! Total Size: 1003446
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
-allegrolokalne.pl-oferta745hf65.shop
-allegrolokalne.pl-oferta754f5f543.click
-allegrolokalne.pl-oferta75h547f4.click
-allegrolokalne.pl-oferta7845hf5f.shop
-allegrolokalne.pl-oferta7891241924.sbs
-allegrolokalne.pl-oferta836hdhye3.click
-allegrolokalne.pl-oferta84df858hf4d.click
-allegrolokalne.pl-oferta857715ha1.click
-allegrolokalne.pl-oferta85fj598f.click
-allegrolokalne.pl-oferta874f5h5.click
 allegrolokalne.pl-ofertafirmowa746heu6feh.cfd
 allegrolokalne.pl-ofertafirmowa845jhjx8n4f.click
 allegrolokalne.pl-ofertafirmowa94nf87f.click

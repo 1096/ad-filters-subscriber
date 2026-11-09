@@ -1,6 +1,6 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-09 11:34:44
-! Total Size: 1003459
+! Last Modified: 2026-11-09 11:45:51
+! Total Size: 1003446
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 ||trambelongedallure.com^
 ||contuselegator.com^
@@ -267725,7 +267725,6 @@ ad.broadstreetads.com
 ||t.sptrck.com^
 ||t.trcktr.com^
 ||t.wintrck.com^
-||topdealad.com^
 ||adk.ezmob.com^
 ||adserver.additionalmedia.com^
 ||advertisers.revenuehits.com^
@@ -270256,3 +270255,4 @@ arcfly.net##+js(no-setTimeout-if, placebo.height)
 freewebcart.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 freewebcart.com##+js(no-setTimeout-if, placebo.height)
 igeeksblog.com##+js(no-setTimeout-if, placebo.height)
+ncaa.com##+js(prevent-fetch, adsbygoogle)

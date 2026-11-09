@@ -1,8 +1,9 @@
 #ADFS AdBlock clash
-#Last Modified: 2026-11-09 11:34:44
-#Total Size: 506417
+#Last Modified: 2026-11-09 11:45:51
+#Total Size: 506418
 #Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 payload:
+  - "iframes.perfectgonzo.com"
   - "iframes.prettyincash.com"
   - "igame4free.com"
   - "image.cecash.com"
@@ -260377,4 +260378,3 @@ payload:
   - "zpm0k3.info"
   - "zpmbra.weebly.com"
   - "zpmesh.com"
-  - "zpnet328.eu.cc"

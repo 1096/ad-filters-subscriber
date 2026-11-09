@@ -1,6 +1,6 @@
 # ADFS AdBlock smartdns
-# Last Modified: 2026-11-09 11:34:44
-# Total Size: 505756
+# Last Modified: 2026-11-09 11:45:51
+# Total Size: 505757
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
 address /trambelongedallure.com/#
 address /contuselegator.com/#

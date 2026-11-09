@@ -1,7 +1,8 @@
 # ADFS AdBlock hosts
-# Last Modified: 2026-11-09 11:34:44
-# Total Size: 505401
+# Last Modified: 2026-11-09 11:45:51
+# Total Size: 505402
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+0.0.0.0	formessengers.com
 0.0.0.0	forms.earnmydegree.com
 0.0.0.0	forum-boost.site50.net
 0.0.0.0	fotologaso.miss-web.es
@@ -243311,4 +243312,3 @@
 0.0.0.0	vinted.pl98.xyz
 0.0.0.0	vinted.pl982.cyou
 0.0.0.0	vinted.pl982342.xyz
-0.0.0.0	vinted.pl98zb623.cyou
