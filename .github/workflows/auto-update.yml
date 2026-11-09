@@ -51,8 +51,14 @@ jobs:
           echo "profile=${{ github.event.inputs.profile || 'prod' }}" >> $GITHUB_OUTPUT
           echo "release-branch=${{ github.event.inputs.release-branch || 'release' }}" >> $GITHUB_OUTPUT
 
+      - name: Test rule splitting
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+
       - name: Run Jar
         run:  mvn spring-boot:run -Dspring-boot.run.profiles=${{ steps.defaults.outputs.profile }}
+
+      - name: Split generated rules
+        run: python3 scripts/split_rules.py rule
 
       - name: Upload parser log
         uses: actions/upload-artifact@v7

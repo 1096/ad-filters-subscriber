@@ -21,12 +21,18 @@ jobs:
       with:
         java-version: '25'
         distribution: 'temurin'
+
+    - name: Test rule splitting
+      run: python3 -m unittest discover -s scripts -p 'test_*.py'
     
     - name: Build with Maven
       run: mvn clean package -DskipTests
     
     - name: Run application
       run: java -jar target/ad-filters-subscriber-*.jar
+
+    - name: Split generated rules
+      run: python3 scripts/split_rules.py rule
     
     - name: Upload generated files
       uses: actions/upload-artifact@v7
@@ -35,7 +41,7 @@ jobs:
         path: rule/
     
     - name: Commit and push files
-      if: always()
+      if: success()
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"

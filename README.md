@@ -103,6 +103,13 @@ mvn spring-boot:run
 - 打开 `Github Action` 页面，选中左侧 `Update Filters` 授权 `Workflow` 定时执行(⚠ 重要步骤)
 - 点击 `Run workflow` 或等待自动执行。执行完成后规则将生成在 `release` 分支
 
+GitHub Actions 会将每种规则按行拆分为不超过 7,000,000 字节的文件。首片保留原文件名，
+后续片使用 `-2`、`-3` 等后缀（例如 `all-dns.txt`、`all-dns-2.txt`）。
+原订阅链接仅包含首片，需订阅同一类型的所有分片才能获取完整规则；
+`split-manifest.json` 列出每种规则当前的分片。各分片的文件头保留原完整规则集的总数。
+本地运行 Java 程序后，可执行 `python3 scripts/split_rules.py rule` 来拆分输出；
+每次拆分前应先重新生成完整规则文件。
+
 #### **Codespaces**
 
 - 登录 `Github`，点击本仓库右上角 `Code` 按钮，选择并创建新的 `Codespaces`
