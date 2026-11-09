@@ -113,7 +113,7 @@ mvn spring-boot:run
 - Click Run workflow or wait for automatic execution. Once completed, the corresponding rules will be generated in the
   directory specified in the configuration.
 
-GitHub Actions splits each rule format at line boundaries into files of at most 7,000,000 bytes.
+GitHub Actions splits each rule format at line boundaries into files of at most 7,000,000 bytes and 400,000 lines, including headers.
 The first part keeps the original filename; subsequent parts use `-2`, `-3`, and so on.
 The original subscription URL contains only the first part: subscribe to every part of the desired format.
 `split-manifest.json` lists the current parts, and each part's header retains the total for the full rule set.

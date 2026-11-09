@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from split_rules import MANIFEST, MAX_BYTES, split_directory
+from split_rules import MANIFEST, MAX_BYTES, MAX_LINES, split_directory
 
 
 class SplitRulesTest(unittest.TestCase):
@@ -68,6 +68,29 @@ class SplitRulesTest(unittest.TestCase):
         self.assertLessEqual(first.stat().st_size, MAX_BYTES)
         self.assertLessEqual(second.stat().st_size, MAX_BYTES)
         self.assertEqual(first.read_bytes()[len(header):] + second.read_bytes()[len(header):], line * 7001)
+
+    def test_real_line_limit_includes_header_and_preserves_every_rule(self):
+        header = b"# header\npayload:\n"
+        line = b"  - a\n"
+        self.write("rules.yaml", header + line * (MAX_LINES - 1))
+        split_directory(self.directory)
+        first = (self.directory / "rules.yaml").read_bytes()
+        second = (self.directory / "rules-2.yaml").read_bytes()
+        self.assertEqual(len(first.splitlines()), MAX_LINES)
+        self.assertEqual(len(second.splitlines()), 3)
+        self.assertEqual(first[len(header):] + second[len(header):], line * (MAX_LINES - 1))
+        self.assertLessEqual(len(first), MAX_BYTES)
+        manifest = json.loads((self.directory / MANIFEST).read_text(encoding="utf-8"))
+        self.assertEqual(manifest["max_lines"], MAX_LINES)
+
+    def test_line_limit_header_and_invalid_limit(self):
+        source = b"# first\n# second\nrule\n"
+        self.write("rules.txt", source)
+        with self.assertRaisesRegex(ValueError, "Header exceeds line limit"):
+            split_directory(self.directory, max_lines=2)
+        with self.assertRaisesRegex(ValueError, "Invalid"):
+            split_directory(self.directory, max_lines=0)
+        self.assertEqual((self.directory / "rules.txt").read_bytes(), source)
 
 
 if __name__ == "__main__":

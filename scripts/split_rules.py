@@ -8,6 +8,7 @@ import sys
 import tempfile
 
 MAX_BYTES = 7_000_000
+MAX_LINES = 400_000
 MANIFEST = "split-manifest.json"
 
 
@@ -32,7 +33,7 @@ def read_manifest(directory):
     return files
 
 
-def split_file(source, destination, max_bytes):
+def split_file(source, destination, max_bytes, max_lines):
     parts = []
     with source.open("rb") as reader:
         header = bytearray()
@@ -47,6 +48,9 @@ def split_file(source, destination, max_bytes):
             line = reader.readline()
         if len(header) > max_bytes:
             raise ValueError(f"Header exceeds size limit: {source}")
+        header_lines = header.count(b"\n") + bool(header and not header.endswith(b"\n"))
+        if header_lines > max_lines or (line and header_lines == max_lines):
+            raise ValueError(f"Header exceeds line limit: {source}")
 
         writer = None
         try:
@@ -58,14 +62,17 @@ def split_file(source, destination, max_bytes):
                 return stream, len(header)
 
             writer, size = open_part()
+            line_count = header_lines
             while line:
                 if len(header) + len(line) > max_bytes:
                     raise ValueError(f"Rule exceeds size limit in {source}")
-                if size + len(line) > max_bytes:
+                if size + len(line) > max_bytes or line_count == max_lines:
                     writer.close()
                     writer, size = open_part()
+                    line_count = header_lines
                 writer.write(line)
                 size += len(line)
+                line_count += 1
                 line = reader.readline()
         finally:
             if writer is not None:
@@ -73,10 +80,10 @@ def split_file(source, destination, max_bytes):
     return parts
 
 
-def split_directory(directory, max_bytes=MAX_BYTES):
+def split_directory(directory, max_bytes=MAX_BYTES, max_lines=MAX_LINES):
     directory = Path(directory)
-    if max_bytes <= 0 or not directory.is_dir():
-        raise ValueError(f"Invalid output directory or size limit: {directory}")
+    if max_bytes <= 0 or max_lines <= 0 or not directory.is_dir():
+        raise ValueError(f"Invalid output directory or split limit: {directory}")
     old = read_manifest(directory)
     old_parts = {part for parts in old.values() for part in parts[1:]}
     sources = sorted(
@@ -92,14 +99,14 @@ def split_directory(directory, max_bytes=MAX_BYTES):
         claimed = set()
         source_names = {p.name for p in sources}
         for source in sources:
-            parts = split_file(source, staging, max_bytes)
+            parts = split_file(source, staging, max_bytes, max_lines)
             for name in parts:
                 if name in claimed or (name != source.name and (
                         name in source_names or ((directory / name).exists() and name not in old_parts))):
                     raise ValueError(f"Output filename collision: {name}")
                 claimed.add(name)
             files[source.name] = parts
-        manifest = {"version": 1, "max_bytes": max_bytes, "files": files}
+        manifest = {"version": 1, "max_bytes": max_bytes, "max_lines": max_lines, "files": files}
         (staging / MANIFEST).write_text(
             json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
