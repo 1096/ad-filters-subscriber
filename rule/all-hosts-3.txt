@@ -1,7 +1,135 @@
 # ADFS AdBlock hosts
-# Last Modified: 2026-11-09 12:05:18
-# Total Size: 505402
+# Last Modified: 2026-11-10 02:13:39
+# Total Size: 505609
 # Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+0.0.0.0	vinted.pl-ogloszezenie7891241891.shop
+0.0.0.0	vinted.pl-ogloszezenie789213789012.shop
+0.0.0.0	vinted.pl-ogloszezenie789253789.shop
+0.0.0.0	vinted.pl-ogloszezenie928359812.shop
+0.0.0.0	vinted.pl-ogloszezenle914298142.shop
+0.0.0.0	vinted.pl-oglozszenie1248912891.shop
+0.0.0.0	vinted.pl-oglozszenie19291028571.shop
+0.0.0.0	vinted.pl-oglozszenie8901241727.shop
+0.0.0.0	vinted.pl-order747346.cfd
+0.0.0.0	vinted.pl-order871263.top
+0.0.0.0	vinted.pl-p45cr.sbs
+0.0.0.0	vinted.pl-pg2i1.sbs
+0.0.0.0	vinted.pl-platnosci53853.cyou
+0.0.0.0	vinted.pl-platnosci647938128.cfd
+0.0.0.0	vinted.pl-platnosci708947213.lol
+0.0.0.0	vinted.pl-platnosci879054832.sbs
+0.0.0.0	vinted.pl-produkt38oferta545967389.lol
+0.0.0.0	vinted.pl-produkt39knrs687567896.lol
+0.0.0.0	vinted.pl-produkt67rndp12458957.lol
+0.0.0.0	vinted.pl-produkt8124.shop
+0.0.0.0	vinted.pl-produkty.lol
+0.0.0.0	vinted.pl-produkty3nd92784723.shop
+0.0.0.0	vinted.pl-produkty8rs653794826.shop
+0.0.0.0	vinted.pl-przvf.sbs
+0.0.0.0	vinted.pl-rc5produkty4567893254.lol
+0.0.0.0	vinted.pl-rezerwacja9669.click
+0.0.0.0	vinted.pl-share472821.sbs
+0.0.0.0	vinted.pl-sharee281283389.sbs
+0.0.0.0	vinted.pl-shareoffer20372.pl
+0.0.0.0	vinted.pl-sklep2oferta76959134.shop
+0.0.0.0	vinted.pl-sklep2oferta837894091.shop
+0.0.0.0	vinted.pl-sklep2oferty786958494.shop
+0.0.0.0	vinted.pl-sklep3oferty945968898.shop
+0.0.0.0	vinted.pl-sklep7produkt512812497.shop
+0.0.0.0	vinted.pl-smart758718581.pl
+0.0.0.0	vinted.pl-tc62v.sbs
+0.0.0.0	vinted.pl-testowadomena631.cfd
+0.0.0.0	vinted.pl-u1gyf.sbs
+0.0.0.0	vinted.pl-v3iml.sbs
+0.0.0.0	vinted.pl-zakup24.shop
+0.0.0.0	vinted.pl-zakupy0nd8360160176.top
+0.0.0.0	vinted.pl-zakupy9278171650.sbs
+0.0.0.0	vinted.pl01.live
+0.0.0.0	vinted.pl01.mom
+0.0.0.0	vinted.pl01.pics
+0.0.0.0	vinted.pl01.rest
+0.0.0.0	vinted.pl01.space
+0.0.0.0	vinted.pl019273.cfd
+0.0.0.0	vinted.pl019274.rest
+0.0.0.0	vinted.pl02.fun
+0.0.0.0	vinted.pl02.live
+0.0.0.0	vinted.pl02.rest
+0.0.0.0	vinted.pl02.skin
+0.0.0.0	vinted.pl02.top
+0.0.0.0	vinted.pl029coi2.cyou
+0.0.0.0	vinted.pl03.blog
+0.0.0.0	vinted.pl03.lol
+0.0.0.0	vinted.pl03.rest
+0.0.0.0	vinted.pl03.shop
+0.0.0.0	vinted.pl03.site
+0.0.0.0	vinted.pl09fds43s8432c4.cyou
+0.0.0.0	vinted.pl11zs429.cyou
+0.0.0.0	vinted.pl18z29.cyou
+0.0.0.0	vinted.pl18z74vx73.cyou
+0.0.0.0	vinted.pl191zs296.cyou
+0.0.0.0	vinted.pl193cn62m72u.cyou
+0.0.0.0	vinted.pl19jw3926mx.cyou
+0.0.0.0	vinted.pl19z702u.cyou
+0.0.0.0	vinted.pl1z5vc.cyou
+0.0.0.0	vinted.pl1z7vs.cyou
+0.0.0.0	vinted.pl1z92nz2b.cyou
+0.0.0.0	vinted.pl1zn6sd73.cyou
+0.0.0.0	vinted.pl21vnu294b.cyou
+0.0.0.0	vinted.pl23562.lol
+0.0.0.0	vinted.pl235925.lol
+0.0.0.0	vinted.pl24.online
+0.0.0.0	vinted.pl24.shop
+0.0.0.0	vinted.pl24.site
+0.0.0.0	vinted.pl24.website
+0.0.0.0	vinted.pl24.world
+0.0.0.0	vinted.pl26490.lol
+0.0.0.0	vinted.pl27zx30bf.cfd
+0.0.0.0	vinted.pl2bz6vc7u.cyou
+0.0.0.0	vinted.pl32zx41.cyou
+0.0.0.0	vinted.pl41nm612.cyou
+0.0.0.0	vinted.pl423az211.cyou
+0.0.0.0	vinted.pl43fhg912.cyou
+0.0.0.0	vinted.pl44389494.shop
+0.0.0.0	vinted.pl522we712.cyou
+0.0.0.0	vinted.pl52462.lol
+0.0.0.0	vinted.pl53164613.lol
+0.0.0.0	vinted.pl53918fdshhujhujhuj.lol
+0.0.0.0	vinted.pl542952.lol
+0.0.0.0	vinted.pl55596.top
+0.0.0.0	vinted.pl55789.top
+0.0.0.0	vinted.pl55998.top
+0.0.0.0	vinted.pl5846734.sbs
+0.0.0.0	vinted.pl629374.cyou
+0.0.0.0	vinted.pl654262.lat
+0.0.0.0	vinted.pl6542627.lat
+0.0.0.0	vinted.pl66zs537.cyou
+0.0.0.0	vinted.pl74495.cyou
+0.0.0.0	vinted.pl78.shop
+0.0.0.0	vinted.pl7820.lol
+0.0.0.0	vinted.pl78xz762.cyou
+0.0.0.0	vinted.pl82629.cyou
+0.0.0.0	vinted.pl82vc9374zm9.cyou
+0.0.0.0	vinted.pl87254.lol
+0.0.0.0	vinted.pl88zs672.cyou
+0.0.0.0	vinted.pl911zx679.cyou
+0.0.0.0	vinted.pl91za541.cyou
+0.0.0.0	vinted.pl91zs776.cyou
+0.0.0.0	vinted.pl91zx726nu.cyou
+0.0.0.0	vinted.pl923491.cfd
+0.0.0.0	vinted.pl92562.lol
+0.0.0.0	vinted.pl927382.cfd
+0.0.0.0	vinted.pl92838282.shop
+0.0.0.0	vinted.pl92nm7739.cyou
+0.0.0.0	vinted.pl92zx621z.cyou
+0.0.0.0	vinted.pl933686467oferta.shop
+0.0.0.0	vinted.pl941061.top
+0.0.0.0	vinted.pl94324.sbs
+0.0.0.0	vinted.pl946353738.shop
+0.0.0.0	vinted.pl971.cyou
+0.0.0.0	vinted.pl97zx1172.cyou
+0.0.0.0	vinted.pl98.xyz
+0.0.0.0	vinted.pl982.cyou
+0.0.0.0	vinted.pl982342.xyz
 0.0.0.0	vinted.pl98zb623.cyou
 0.0.0.0	vinted.pl98zc2633.cyou
 0.0.0.0	vinted.pl99.top
@@ -445,6 +573,7 @@
 0.0.0.0	visacenterservice.com
 0.0.0.0	visaciro.gu.cc
 0.0.0.0	visad-cr.eu.cc
+0.0.0.0	visagesoxidicslowup.cyou
 0.0.0.0	visanet-do.com
 0.0.0.0	visaprocessings.com
 0.0.0.0	visastousa.com
@@ -541,6 +670,7 @@
 0.0.0.0	visitwop.lovable.app
 0.0.0.0	visofondavia.com
 0.0.0.0	visokakapitina.net
+0.0.0.0	visonalumins.cyou
 0.0.0.0	visorperu.com
 0.0.0.0	visortechsolutions.com
 0.0.0.0	visporaseek-soft.com
@@ -772,6 +902,7 @@
 0.0.0.0	vivalto-holding.fr
 0.0.0.0	vivanarcha.store
 0.0.0.0	vivanox.shop
+0.0.0.0	vivantsrenninsposteen.cfd
 0.0.0.0	vivarino.shop
 0.0.0.0	vivaspincasino.fr
 0.0.0.0	vivatango-steakhouse.com
@@ -858,6 +989,7 @@
 0.0.0.0	vjomaloma.com
 0.0.0.0	vjqfq.com
 0.0.0.0	vjspanner.com
+0.0.0.0	vjtpz13eo22it6lk4ox8wnmem.rest
 0.0.0.0	vjv9mc.info
 0.0.0.0	vjzxdhai.shop
 0.0.0.0	vk-traf.ru
@@ -1873,6 +2005,7 @@
 0.0.0.0	vylaziathxtrade.com
 0.0.0.0	vylejey.com
 0.0.0.0	vymaro.shop
+0.0.0.0	vympzhnxgoweg.store
 0.0.0.0	vyndeck.org
 0.0.0.0	vyndo.top
 0.0.0.0	vyneon62.site
@@ -1952,6 +2085,7 @@
 0.0.0.0	vzubah.com
 0.0.0.0	vzube.com
 0.0.0.0	vzubkah.com
+0.0.0.0	vzv2ikh5t4kbm5wy.cfd
 0.0.0.0	vzvao.com
 0.0.0.0	w-auth-wf.firebaseapp.com
 0.0.0.0	w-auth-wf.web.app
@@ -2007,6 +2141,7 @@
 0.0.0.0	w4zuod.info
 0.0.0.0	w595505.com
 0.0.0.0	w5c9kr.lat
+0.0.0.0	w5k1ni9cuphb1xb87rytjpyl.rest
 0.0.0.0	w5k9pr.fit
 0.0.0.0	w5q9lv.lat
 0.0.0.0	w5r.vo1mie.qpon
@@ -2230,6 +2365,7 @@
 0.0.0.0	wamchain.org
 0.0.0.0	wamparug.com
 0.0.0.0	wampisheppdbrindle.info
+0.0.0.0	wampleoccultsslurban.cyou
 0.0.0.0	wanaado.fr
 0.0.0.0	wanabet-casino.fr
 0.0.0.0	wanabet.fr
@@ -2518,6 +2654,7 @@
 0.0.0.0	wathbi.shop
 0.0.0.0	watnf1mjrd6r682g7wah.s3.us-east-1.amazonaws.com
 0.0.0.0	watrz.com
+0.0.0.0	watteauracoons.cyou
 0.0.0.0	wattjimv.site
 0.0.0.0	wattlesschapellrons.info
 0.0.0.0	wattlex.digital
@@ -2772,6 +2909,7 @@
 0.0.0.0	wealthwiseinvestments.shop
 0.0.0.0	weamaweowlsweopq.site
 0.0.0.0	weankdwopadoap.com
+0.0.0.0	weaponarratel.cfd
 0.0.0.0	wearagainshop.shop
 0.0.0.0	wearagainstudio.shop
 0.0.0.0	wearandlayer.shop
@@ -3504,6 +3642,7 @@
 0.0.0.0	wenasjewjajdsa.site
 0.0.0.0	wenasuwiejsaif.site
 0.0.0.0	wenda9339.com
+0.0.0.0	wendishalisospocoson.cfd
 0.0.0.0	wendravik.pro
 0.0.0.0	wendt-net.online
 0.0.0.0	wendynoble.shop
@@ -3849,6 +3988,7 @@
 0.0.0.0	wfeltiqand.lovable.app
 0.0.0.0	wfepim.com
 0.0.0.0	wfhtoceo.com
+0.0.0.0	wfm7gv8t297zcn.cfd
 0.0.0.0	wfmcsy.com
 0.0.0.0	wfow-8ab44.firebaseapp.com
 0.0.0.0	wfow-8ab44.web.app
@@ -3870,6 +4010,7 @@
 0.0.0.0	wgy-df.firebaseapp.com
 0.0.0.0	wgy-df.web.app
 0.0.0.0	wh9.pm7cui.cfd
+0.0.0.0	whackedambush.qpon
 0.0.0.0	whai.fr
 0.0.0.0	whaleplaycasino.fr
 0.0.0.0	whalex-ai.live
@@ -3880,6 +4021,7 @@
 0.0.0.0	whana-gonyx.com
 0.0.0.0	whangamspriest.com
 0.0.0.0	wharrownecia.com
+0.0.0.0	wharryenforthtudor.cyou
 0.0.0.0	whataboutnews.com
 0.0.0.0	whatcoil.uaiowa.com
 0.0.0.0	whatmarketsdid.com
@@ -4062,6 +4204,7 @@
 0.0.0.0	wickett-craig.mom
 0.0.0.0	wickfen.online
 0.0.0.0	wickholt.com
+0.0.0.0	wickscindieyeuky.cfd
 0.0.0.0	wicmed.com
 0.0.0.0	widadkamillah.github.io
 0.0.0.0	widedeeper.stumetalwork.com
@@ -4130,8 +4273,10 @@
 0.0.0.0	wigag.info
 0.0.0.0	wigamax.fr
 0.0.0.0	wigenau.com
+0.0.0.0	wiggedlynn.cyou
 0.0.0.0	wiggiipost.cyou
 0.0.0.0	wigglebuttsrescue.info
+0.0.0.0	wigglesbookish.cyou
 0.0.0.0	wiguviy.com
 0.0.0.0	wih83912-g43.lat
 0.0.0.0	wihack.com
@@ -4855,6 +5000,7 @@
 0.0.0.0	wiseborrowing.com
 0.0.0.0	wisecapitalguide.com
 0.0.0.0	wisefalcontrail.live
+0.0.0.0	wiseguymuspike.qpon
 0.0.0.0	wisencode.com
 0.0.0.0	wiseopin.binneserver.com
 0.0.0.0	wiseprofitwaysoftware.com
@@ -4884,6 +5030,7 @@
 0.0.0.0	wispor.click
 0.0.0.0	wisport-pl.shop
 0.0.0.0	wispy-loom.com
+0.0.0.0	wistedresewedgas.qpon
 0.0.0.0	wistful-dream.com
 0.0.0.0	wistful-trails.com
 0.0.0.0	wistydomas.lovable.app
@@ -4985,6 +5132,7 @@
 0.0.0.0	wkkwsss.com
 0.0.0.0	wknamax.fr
 0.0.0.0	wkropcewkrakowie.top
+0.0.0.0	wkrqvffpntjzm.store
 0.0.0.0	wkruk.shop
 0.0.0.0	wl07.com
 0.0.0.0	wl9120.shop
@@ -5235,6 +5383,7 @@
 0.0.0.0	woodymoods.com
 0.0.0.0	woodysdecks.com
 0.0.0.0	wooebmastersendeavour.info
+0.0.0.0	woofertwiscar.cfd
 0.0.0.0	wooiijjoiwiirffjiwfa.site
 0.0.0.0	wookatv.fr
 0.0.0.0	woolbetcasino.fr
@@ -5481,6 +5630,7 @@
 0.0.0.0	worldwidewebfr-9b75e.web.app
 0.0.0.0	worldwipes.com
 0.0.0.0	worldzgamez.com
+0.0.0.0	wormvengeaurin.qpon
 0.0.0.0	worsbarau.store
 0.0.0.0	worse-mine.com
 0.0.0.0	worsesraftageparify.qpon
@@ -5534,6 +5684,7 @@
 0.0.0.0	wpgieljm.shop
 0.0.0.0	wphposrec.weebly.com
 0.0.0.0	wpinoscinueouvybwdodc.com
+0.0.0.0	wpkzkcvqy4t75p5ir.rest
 0.0.0.0	wplf.fr
 0.0.0.0	wplicensing.com
 0.0.0.0	wpmmh5n5xxkq4e.cfd
@@ -5732,6 +5883,7 @@
 0.0.0.0	wumevauvo.autos
 0.0.0.0	wumilao.com
 0.0.0.0	wunamax.fr
+0.0.0.0	wunbeigy.cyou
 0.0.0.0	wunderwinscasino.fr
 0.0.0.0	wunjd.1jh2yhw.pics
 0.0.0.0	wunori-buruma.info
@@ -11375,6 +11527,7 @@
 0.0.0.0	wy13j-h26-sq0e-jf35q-10-09-2026-hh.pages.dev
 0.0.0.0	wy9311.craftum.io
 0.0.0.0	wy9wlr.sbs
+0.0.0.0	wyapfiujccvsj.store
 0.0.0.0	wybor.shop
 0.0.0.0	wybordnqjftempoonline.site
 0.0.0.0	wybzr.com
@@ -11514,6 +11667,7 @@
 0.0.0.0	x3mt5qv.casa
 0.0.0.0	x3q6mw.lat
 0.0.0.0	x3qt6mv.skin
+0.0.0.0	x3vmn1m3ne6epnk9v9t9.rest
 0.0.0.0	x3x.su
 0.0.0.0	x44k-vwzh-0bzb21-mtki-alkn.pages.dev
 0.0.0.0	x47nova.online
@@ -11550,6 +11704,7 @@
 0.0.0.0	x7-online.fr
 0.0.0.0	x7.x8xmho.cfd
 0.0.0.0	x72gbe.portalpacjentacmk.pl
+0.0.0.0	x75nghv3mrbn77ee23.rest
 0.0.0.0	x7casino-app.fr
 0.0.0.0	x7casino-en-ligne.fr
 0.0.0.0	x7casino-enligne.fr
@@ -11790,6 +11945,7 @@
 0.0.0.0	xbt-iplex-ai.com
 0.0.0.0	xbtiplexai.org
 0.0.0.0	xc29.pm7cui.cfd
+0.0.0.0	xc6ofex1mmj3i33ufgg4zq21t.rest
 0.0.0.0	xcajj.com
 0.0.0.0	xcamczz.weebly.com
 0.0.0.0	xcams.net
@@ -12083,6 +12239,7 @@
 0.0.0.0	xhlxlywwbm.com
 0.0.0.0	xhm1w4.webwave.dev
 0.0.0.0	xhv.cj1gxp.top
+0.0.0.0	xhxkzhpnbz14lrzb4g54g9z.rest
 0.0.0.0	xhye.fr
 0.0.0.0	xhymb.com
 0.0.0.0	xi7mxo.csb.app
@@ -12206,6 +12363,7 @@
 0.0.0.0	xlbq7n.flirtstrefa.pl
 0.0.0.0	xlcryptomining.com
 0.0.0.0	xleet.to
+0.0.0.0	xleiq5zwgc54zu32h.cfd
 0.0.0.0	xlgmortgage.com
 0.0.0.0	xlientcpay.fr
 0.0.0.0	xloot.wtf
@@ -13818,6 +13976,7 @@
 0.0.0.0	xttuan.com
 0.0.0.0	xtv-prime.fr
 0.0.0.0	xtycys.com
+0.0.0.0	xtyzzt6g1ox4uv.rest
 0.0.0.0	xtzjc.com
 0.0.0.0	xu2.com
 0.0.0.0	xuanzhentaisui.com
@@ -13952,6 +14111,7 @@
 0.0.0.0	xylocube.site
 0.0.0.0	xyloflair.site
 0.0.0.0	xyloilcloud.site
+0.0.0.0	xylosewinched.cfd
 0.0.0.0	xylovia.site
 0.0.0.0	xylowrap.blog
 0.0.0.0	xylowrapvia.site
@@ -14052,6 +14212,7 @@
 0.0.0.0	y6c3vn.lat
 0.0.0.0	y6t1hz.lat
 0.0.0.0	y77mvnio.pages.dev
+0.0.0.0	y7f8f8fhyktvivl7xin1.rest
 0.0.0.0	y7h11n.pomponette.pl
 0.0.0.0	y7n1mk.lat
 0.0.0.0	y7x.podatk.com
@@ -14065,6 +14226,7 @@
 0.0.0.0	y9b3mx.lat
 0.0.0.0	y9m5tk.lat
 0.0.0.0	y9new1.duckdns.org
+0.0.0.0	y9rtbzrt648fuikwyrvpgqehjl1.cfd
 0.0.0.0	ya3w28.opatulpets.pl
 0.0.0.0	ya804x.jpbrazs.com
 0.0.0.0	yaa-casino.fr
@@ -14080,6 +14242,7 @@
 0.0.0.0	yachtcln.com
 0.0.0.0	yadammanajk.blogspot.com
 0.0.0.0	yaderenergy.ru
+0.0.0.0	yaebhbyweyxvt.store
 0.0.0.0	yafata.info
 0.0.0.0	yafeva.site
 0.0.0.0	yagfalabfgal.blogspot.com
@@ -14303,6 +14466,7 @@
 0.0.0.0	yelvio.shop
 0.0.0.0	yemegehaziravokado.com
 0.0.0.0	yemekburda.com
+0.0.0.0	yemingballock.cfd
 0.0.0.0	yenerscreation.com
 0.0.0.0	yenibiraksesuar.com
 0.0.0.0	yenidevletprojesi.com
@@ -14924,6 +15088,7 @@
 0.0.0.0	ytongfiyati.com
 0.0.0.0	ytouc.soylon.com
 0.0.0.0	ytrieosjfisdfiuwofri.site
+0.0.0.0	ytro887wxgw5xr4zj6e5h4hm2ectvi2vovqw9.cfd
 0.0.0.0	ytrtyuytuyt.weebly.com
 0.0.0.0	ytruiworjsfisodiewrjsdi.site
 0.0.0.0	ytsmoda3jcne.ru
@@ -15038,6 +15203,7 @@
 0.0.0.0	yuvahasta.org
 0.0.0.0	yuydq.yt
 0.0.0.0	yuyupatisserie.com
+0.0.0.0	yuyykdjtkdpat.store
 0.0.0.0	yuzhaiyouxi.com
 0.0.0.0	yuzuoo.com
 0.0.0.0	yv2r2ic1kerk7zhqi2.cyou
@@ -15093,6 +15259,7 @@
 0.0.0.0	yyoutube.com
 0.0.0.0	yyoutube.fr
 0.0.0.0	yyredir.com
+0.0.0.0	yyrjpgxh4g9xc3wpf3wjcgbcfn.rest
 0.0.0.0	yysxk.yt
 0.0.0.0	yyvvc.com
 0.0.0.0	yyydcjo.cfd
@@ -15171,6 +15338,7 @@
 0.0.0.0	z5mx9qn.skin
 0.0.0.0	z5n5ze.duckdns.org
 0.0.0.0	z5p2bx.lat
+0.0.0.0	z5qi2851vug83zgbk3gi5obo192.rest
 0.0.0.0	z5x2c9v1b7n3m8k4j0h6g2f1u0l1-ahbkz5cnlt.edgeone.app
 0.0.0.0	z6.eb8rvu.top
 0.0.0.0	z6453i.status-konta939231.pl
@@ -15178,6 +15346,7 @@
 0.0.0.0	z6qt2mx.skin
 0.0.0.0	z6qw2xn.qpon
 0.0.0.0	z6qx3mp.skin
+0.0.0.0	z6x5e11rcm98m5zbruvfb.cfd
 0.0.0.0	z7mr4xn.skin
 0.0.0.0	z7mv4xt.qpon
 0.0.0.0	z7qm3xt.skin
@@ -15451,6 +15620,7 @@
 0.0.0.0	zakupysuper.shop
 0.0.0.0	zakupytop.shop
 0.0.0.0	zakupyzone.shop
+0.0.0.0	zakuskaorlopsaweto.qpon
 0.0.0.0	zaladanoutlets.com
 0.0.0.0	zaladowano24pl.eu.cc
 0.0.0.0	zaladujpaczke24.eu.cc
@@ -15749,6 +15919,7 @@
 0.0.0.0	zbyszektwardowski.mom
 0.0.0.0	zbzqgm.com
 0.0.0.0	zc9l27wq.ru
+0.0.0.0	zcapieuheltue.store
 0.0.0.0	zcdha.com
 0.0.0.0	zchicco.top
 0.0.0.0	zchxzy.com
@@ -16245,6 +16416,7 @@
 0.0.0.0	zepkori-aumveth-germany.sbs
 0.0.0.0	zepkori-aumveth-spain.sbs
 0.0.0.0	zepmar.shop
+0.0.0.0	zepmqjqyhpjjw.store
 0.0.0.0	zeppamento.cyou
 0.0.0.0	zeppeleuci.cyou
 0.0.0.0	zeppelijjnchivies.info
@@ -16533,6 +16705,7 @@
 0.0.0.0	ziferratti.cyou
 0.0.0.0	zifferhaintech.com
 0.0.0.0	ziffermarkpro-tech.com
+0.0.0.0	ziffsfierclylogman.cfd
 0.0.0.0	zifytye.com
 0.0.0.0	zigec.com
 0.0.0.0	ziggingantlid.com
@@ -16614,6 +16787,7 @@
 0.0.0.0	zingmarkbit-digital.pages.dev
 0.0.0.0	zingmarkbit.digital
 0.0.0.0	zinka360.com
+0.0.0.0	zinkifybywalk.cfd
 0.0.0.0	zinkoai.com
 0.0.0.0	zinkracasino.fr
 0.0.0.0	zinnacaria.cyou
@@ -16710,6 +16884,7 @@
 0.0.0.0	ziward.app
 0.0.0.0	ziwere-botuja.info
 0.0.0.0	zixombra1.weebly.com
+0.0.0.0	zixtcgkovehow.store
 0.0.0.0	zixyvia.com
 0.0.0.0	zizhouyuanlin.com
 0.0.0.0	zizki.fr
@@ -16769,6 +16944,7 @@
 0.0.0.0	zksitel.shop
 0.0.0.0	zksjubbb.shop
 0.0.0.0	zkustats.ziraatkatilim.com.tr
+0.0.0.0	zkzmpnlljeqiilmqr.rest
 0.0.0.0	zl5vv.kz7dsq.top
 0.0.0.0	zl9inx9pty5nxzght.rest
 0.0.0.0	zlal-ii327.eu.cc
@@ -16823,6 +16999,7 @@
 0.0.0.0	zlstalco.shop
 0.0.0.0	zlstrauss.shop
 0.0.0.0	zluntek.shop
+0.0.0.0	zlwyiedcgsnco.store
 0.0.0.0	zly.e-poladtk.com
 0.0.0.0	zm.agfgpyc.com
 0.0.0.0	zm5d.lexpress.fr
@@ -16976,6 +17153,7 @@
 0.0.0.0	zonaluxbitapp.com
 0.0.0.0	zondagpt.click
 0.0.0.0	zone6turf.fr
+0.0.0.0	zonedphenosebetroth.cfd
 0.0.0.0	zonefiles.bid
 0.0.0.0	zoneflowbase.com
 0.0.0.0	zoneflowgate.site
@@ -17161,10 +17339,12 @@
 0.0.0.0	zpbpenn.com
 0.0.0.0	zpers.landgoat.com
 0.0.0.0	zpguangxin.com
+0.0.0.0	zpifugiaprqwn.store
 0.0.0.0	zpiwnicyobokpiekarnika.top
 0.0.0.0	zpm0k3.info
 0.0.0.0	zpmbra.weebly.com
 0.0.0.0	zpmesh.com
+0.0.0.0	zpmugwz27bcwo9m1w26r1rvtm.rest
 0.0.0.0	zpnet328.eu.cc
 0.0.0.0	zpnet328.web.id
 0.0.0.0	zpokojuobok.pro
@@ -17294,6 +17474,7 @@
 0.0.0.0	ztygodniawtorekzaranowsrodek.top
 0.0.0.0	zu001.cc
 0.0.0.0	zu7013.craftum.io
+0.0.0.0	zu75w27fgb4rf9u.rest
 0.0.0.0	zubazeb.dyn.home-webserver.de
 0.0.0.0	zubplekl.com
 0.0.0.0	zubrelo.net
