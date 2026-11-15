@@ -1,7 +1,55 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-14 02:13:10
-! Total Size: 1008796
+! Last Modified: 2026-11-15 02:14:15
+! Total Size: 1006019
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+sportshub.to,sportnews.to,topsporter.net##+js(no-xhr-if, pubads.g.doubleclick.net/pagead/js/adsbygoogle.js)
+sportnews.to,topsporter.net##+js(abort-current-script, $, keepChecking)
+sportnews.to,topsporter.net##+js(no-xhr-if, static.doubleclick.net/instream/ad_status.js)
+sportnews.to##+js(set-constant, document.write, undefined)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sportnews.to
+*$xhr,redirect-rule=noop.txt,domain=sportshub.to
+sportshub.to##.popSc
+videzz.net##.vjs-adblock-overlay
+videzz.net##+js(set-constant, isAdBlockDetected, false)
+videzz.net##+js(set-constant, pData.adblockOverlayEnabled, 0)
+||aeromods.app/assets/js/plugins/0.js
+live.golato.io##+js(addEventListener-defuser, load, abDetectorPro)
+@@||codicibancari.it/*script*/*.js$domain=decompiler.com
+decompiler.com##+js(set-constant, ethicalads, {})
+decompiler.com##+js(set-constant, ethicalads.wait, true, , asResolved)
+decompiler.com##+js(abort-current-script, document.createElement, /disabled-link[\s\S]*?advertisement/)
+yrtourguide.com,technons.com,tournguide.com,digiztechno.com,shrtslug.biz##+js(no-xhr-if, adsbygoogle)
+tournguide.com,stly.link##+js(abort-on-property-write, __sfbAdWall)
+airevue.net,veroan.com,amalot.net,carribo.net,stfly.biz,stfly.cc##+js(abort-on-property-read, abwn)
+magicpsd.com,yourimageshare.com,ovabee.com##+js(abort-on-property-write, detectAdBlock)
+azmath.info##+js(abort-on-stack-trace, DOMTokenList.prototype.contains, manageBodyClasses)
+cablevisionhd.com,telegratishd.com##.site-access-popup
+freeminecrafthost.com#@#.textAds
+freeminecrafthost.com#@#.Textads
+newbharatyojna.com###adb
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=crazygames.com|shellshock.io|minijuegos.com
+@@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=crazygames.com|shellshock.io|minijuegos.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=crazygames.com|shellshock.io|minijuegos.com
+crazygames.com,shellshock.io,minijuegos.com##+js(set-constant, COMPCHWBUBBLE, {})
+crazygames.com,shellshock.io,minijuegos.com##.chw-progress-bar-wrap
+4khd.com##.popup-iframe
+howtoconcepts.com###adb
+leakshaven.com##+js(prevent-fetch, pagead2.googlesyndication.com)
+1keydata.com##+js(abort-on-property-read, detect)
+minecraft.buzz##+js(abort-on-property-read, nitroAds)
+remix.es##div[id$="adblockinfo"]
+remix.es##+js(abort-current-script, document.addEventListener, /adblock|bannerad/)
+textreverse.com##+js(prevent-fetch, cdn.snigelweb.com)
+rainmail.xyz##+js(no-setTimeout-if, enable_ad_block_detector)
+@@||rainmail.xyz/storage/js/suv4.js
+iir.la,lnbz.la,oei.la##+js(no-xhr-if, /inklinkor\.com|\/tag\.min\.js/)
+||fewcents.co^$3p
+xtremestream.xyz##+js(abort-current-script, $, .height())
+xtremestream.xyz##body > .ad:style(height: 20px !important; position: absolute !important; left: -3000px !important;)
+paidinsurance.in##+js(abort-on-property-write, detectAdBlock)
+arahtekno.com,gnaija.net##+js(prevent-fetch, adsbygoogle)
+tmail.io##body .ad.ads.adsbygoogle:style(display: block !important;)
+tmail.io##+js(abort-on-property-write, detectAdblock)
 abs-cbn.com##+js(prevent-fetch, www3.doubleclick.net)
 lootlink.org##+js(prevent-fetch, pagead2.googlesyndication.com)
 @@||nzbstars.com/ads.bundle.min.js
@@ -12007,7 +12055,7 @@ asilmedia.org##.site-wrap:style(margin-top: 0 !important;)
 ||yangi-kinolar.ru/*/pc.gif
 ||yangi-kinolar.ru/vast/*.xml
 asilmedia.org###banner
-cobephim.fit##.sspp-area
+cobephim.ink##.sspp-area
 motchille.ws##+js(set-constant, HTMLAnchorElement.prototype.click, noopFunc)
 motchille.ws##div.fixed.inset-0
 damconuong.uno##+js(no-window-open-if, _blank)
@@ -15076,8 +15124,8 @@ jordanmiller.news##div[aria-label="Advertisements"]
 full-porn.com##.underplayer_video_page_desktop
 full-porn.com##.grits-slake-trombone
 full-porn.com##.spatter-boarder-preach
-news4sanantonio.com##div[class*="_taboolaDeeperDive"]
-news4sanantonio.com##div[class^="UserCommenting_commentingAd"]
+fox11online.com,news4sanantonio.com##div[class*="_taboolaDeeperDive"]
+fox11online.com,news4sanantonio.com##div[class^="UserCommenting_commentingAd"]
 justetf.com##div[data-testid="quick-search-default-results-content"] tr.table-active:has(> td > div.disclaimer-inbox)
 justetf.com##div[data-testid="quick-search-results-panel"] + div:has(> div[data-testid="quick-search-ad-container"])
 thewrap.com##.lazy-render-response:has(> .wp-block-the-wrap-sellwild)
@@ -41372,17 +41420,18 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
+||amercedmexicabourock.cfd^
+||blumecedingbaltic.cfd^
 ||demand.supply^$script
 ||fl.corniercuffed.qpon^
-||grimlycask.com^
+||glgyxkvmbamoy.website^
 ||macro.adnami.io^
-||oohmkcgloiupn.space^
 ||paid.outbrain.com^
-||pecantinglytripod.com^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
-||sleepryleakers.cyou^
-||wdxuugjqeavzv.space^
+||rznkohtdshknm.site^
+||stbdktrfpkjsl.online^
+||trampdreamalluded.com^
 ||wpnrtnmrewunrtok.xyz^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
@@ -56244,6 +56293,7 @@ news.mydramalist.com###content > .app-body > div:has(.htlad-header_top)
 familytreenow.com###ftn_detail_left_side_organic
 gocomics.com###header-content-start:has([data-testid="advertising-unit"])
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
+airnavradar.com###history-ad-container
 gtaforums.com###ipsLayout_mainArea div:has(> #pwDeskLbAtf)
 kohls.com###kmncarousel-add_buy_carousel-anchor:has(.KMNProductSlider__sponsored)
 kohls.com###kmncarousel-page-anchor:has(.KMNProductSlider__sponsored)
@@ -56272,6 +56322,7 @@ sbs.com.au##.MuiBox-root:has(> .desktop-ads)
 luxa.org##.MuiContainer-root:has(> ins.adsbygoogle)
 washingtonpost.com##.PJLV-ifmxCWD-css:has([data-qa="outbrain"])
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.Ssfiu-:has([data-testid="popoverTriggersponsoredLabel"])
+carexpert.co.nz##._26wjo84
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 pixiv.net##.__top_side_menu_body > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"]:has(> div[style$="width: 728px; line-height: 0; font-size: 0px;"])
 pixiv.net##.__top_side_menu_body > div[class^="sc-"]:has(> [style$="width: 728px; line-height: 0; font-size: 0px;"])
@@ -56362,6 +56413,7 @@ slickdeals.net##.kevelYouMightLikeDealCard:has(.dealCardBadge--promoted)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 motortrend.com##.lg\:min-h-\[90px\]
+motortrend.com##.lg\:top-16
 alibaba.com##.list-card:has([data-role="ad-area"])
 trip.com##.list-item:has(span.ad-info)
 hotukdeals.com##.listLayout-box:has(> .bRad--a)
@@ -56531,6 +56583,7 @@ petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 bestbuy.com##[data-testid="sponsored-listing"]
 bestbuy.com##[data-testid="story-wrapper-row"] div:has(> [data-story-name="sponsored_grid"])
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
+freightwaves.com##[href^="https://academy.freightwaves.com/"]
 pahe.ink##[href^="https://theshorten.net/"]
 alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
 x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
@@ -56702,6 +56755,7 @@ cars.com##li[data-phx-id]:has([phx-value-source="sponsored_trending_search_card"
 canadiantire.ca##li[data-testid="product-grids"]:has(.nl-product-card__sponsored)
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
+motortrend.com##.max-lg\:hidden:contains(ADVERTISEMENT)
 classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.com"]))
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
 argos.co.uk##section.ds-c-carousel:has(span[class*="sponsoredBadge"])
@@ -57507,7 +57561,7 @@ linkedin.com##[componentkey*="MAIN_FEED_RELEVANCE"]> div[role="listitem"] > [dat
 linkedin.com##div.feed-shared-update-v2:has(span.update-components-actor__description:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 linkedin.com##div.feed-shared-update-v2:has(span.update-components-actor__sub-description--tla:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 linkedin.com##div.feed-shared-update-v2:has(span.update-components-actor__sub-description:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
-linkedin.com##div[data-testid="mainFeed"] > div[data-display-contents="true"]:has(p:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвига��тся|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
+linkedin.com##div[data-testid="mainFeed"] > div[data-display-contents="true"]:has(p:contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 livpost.co.uk##.kg-cta-link-accent:contains(SPONSORED)
 loblaws.ca##[data-testid="product-grid"]>div:contains(Sponsored)
 loblaws.ca,provigo.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.chakra-container:contains(Featured Items)
@@ -66359,7 +66413,7 @@ radio.net##div[data-testid="RAD_NET_M_Search_Middle"] > div#RAD_NET_M_Search_Mid
 slovoidilo.ua##+js(remove-class, branding, body)
 0629.com.ua##.linked-block > div.card-wrapper:has(> div.c-card > div.c-card__subinfo > div.c-card-label:contains(Реклама))
 chansoku.com###article-contents > span:contains(スポンサードリンク)
-chansoku.com##.lattice-interres-standby > span:contains(スポンサード��ンク)
+chansoku.com##.lattice-interres-standby > span:contains(スポンサードリンク)
 aaieba.livedoor.biz##div[align="center"] > table:has(a[href*="amazon.co.jp/"])
 profile.ru##.main > div.container-fluid > div > div.float-right:contains(/^\s{8} $/)
 app.famitsu.com##.news_section > ul > li > div.adcloud_frame:upward(1)
@@ -69810,7 +69864,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||inrecsys.popin.cc^
 ||artfut.com^$redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
 ||affilbox.cz^$3p
-||partner.briliantove-sperky.sk^
 ||vgwort.de^$3p
 ||pl02.owen.prolitteris.ch^
 ||1und1.met.vgwort.de^
@@ -69929,24 +69982,28 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||acweb.clog.jp^$3p
 ||ad.kddi-fs.com^
 ||data.adobedc.net^$3p
+||insights.morrismohawk.ca^
 ||metrics.looksmart.com^
 ||metrics.multiview.com^
-||metrics.patientsatheart.com^
+||stats.ntsfsdsuv.com^
+||data.e.fordfield.com^
 ||data.email.tangerine.ca^
 ||mbox3.offermatica.com^
 ||mbox3e.offermatica.com^
 ||mbox4e.offermatica.com^
 ||mbox6.offermatica.com^
+||smetrics.climatefieldview.es^
 ||metrics.reedbusiness.net^
-||tracking.mb.mercedes-benz.com^
 ||-tmp-logs-metrics.hb.tt.omtrdc.net^
 ||mbox.offermatica.com^
 ||atinternet.com^$3p
 ||xiti.com^$3p
 ||commandersact.com^$3p
+||zekotj.bijoupiko.com^
 ||dataunlocker.com^$3p
 ||cl3ywestv3b5.ru.themoneytizer.com^
-||tdedv.tires-easy.com^
+||gmmjr.everydays.de^
+||iiaqo.puckababy.com^
 ||ensighten.com^$3p
 ||analytics.ensighten.com^
 ||data.privacy.ensighten.com^
@@ -69958,7 +70015,9 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||suncorp.activate.ensighten.com^
 ||euleriancdn.net^$3p
 ||eulerian.net^$3p
+||nym5c.bonlook.com^
 ||etracker.com^$3p
+||stats.haus-am-meer-norderney.de^
 ||goatcounter.com^$3p
 ||daraz.com^$3p
 ||-084-gls-223-www-9-k-0brasil.net.daraz.com^
@@ -69985,13 +70044,13 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||net.quisma.com^
 ||gate.hockeyapp.net.iberostar.com^
 ||at_w_atexxpressdata-c3a3188a23.exxpress.at^
+||data-deb04a4388.wb-jobs.de^
 ||pool1.ioam.de^
 ||pool2.ioam.de^
 ||pool4.ioam.de^
 ||pool5.ioam.de^
 ||track.st.dbfocus.jp^
 ||1to1dialogue.thunderhead.com^
-||business.keurig.com^
 ||sw.broadcom.com^
 ||rt.vprtrfc.com^
 ||trck.bestonlinecasino.club^
@@ -69999,15 +70058,18 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||load.gtm.hurra.com^
 ||load.sgtm.reseller.bannerheld.de^
 ||load.sgtm.tennis-point.de^
-||acbd.holylandprayer.com^
+||luid-inzicht.kunststofkozijn.nl^
+||sst.beeluckyprizes.co.uk^
+||sst.lexum.sk^
+||bartdta.jameslane.com.au^
+||gtm.splashconvites.com^
+||gtm.tudosobremarcenaria.com.br^
 ||gtmserver.imobiliariaesperanca.com.br^
 ||load.sgtm.joga.dk^
 ||load.sst.colemanfurniture.com^
+||m.muaralab.com^
 ||metrics.ezmob.com^
-||serverstep.secrethavenbd.com^
 ||sgtm.richads.com^
-||sgtm.yumeida.co.id^
-||ss.megacharts.com^
 ||sst.us.taahirajewellery.com^
 ||stape.clickguard.com^
 ||stape.matsato.com^
@@ -70019,7 +70081,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||webtrekk.net^$3p
 ||d1udjti6mtxz9q.cloudfront.net^$3p
 ||tags.news.com.au^$~script
-||statistika.kdzjewelry.com^
+||matomo.der-heudesigner.de^
 ||tk3.keodinh.net^
 ||servt.ergadx.com^
 ||users.vidy.st^$3p
@@ -70065,7 +70127,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||alxc.addlv.smt.docomo.ne.jp^
 ||app.redretarget.com^
 ||audience.visiblemeasures.com^
-||beta.simpel.nl^
 ||c.adroll.com^
 ||c.bing.com/c.gif
 ||c.imrk.net^
@@ -158450,96 +158511,3 @@ email.email.networthydigital.com$image
 email.email.neuemaison.co$image
 email.email.neumaticoselite.com$image
 email.email.neuravaai.com$image
-email.email.neuroaxisrehab.com$image
-email.email.neurodiversityunravelled.com$image
-email.email.neuroelevatesolutions.com$image
-email.email.neurohackers.top$image
-email.email.neurokindmom.com$image
-email.email.neuromarkethinking.it$image
-email.email.neuropathysecret.com$image
-email.email.neuropathytexas.com$image
-email.email.neuroshifting.nl$image
-email.email.neuroteachersai.com$image
-email.email.neusdavilacoach.com$image
-email.email.neuselcacho.com$image
-email.email.neveraloneservices.com$image
-email.email.neverloseadeal.com$image
-email.email.new-empowered-you.com$image
-email.email.newagetrading.io$image
-email.email.newamericandream.io$image
-email.email.newbioitalia.com$image
-email.email.newbizai.net$image
-email.email.newbornphotographyathome.com$image
-email.email.newcargoat.com$image
-email.email.newearthascension.org$image
-email.email.newell.io$image
-email.email.newfortsettlement.com$image
-email.email.newgenesispathfinder.com$image
-email.email.newhome-consultant.com$image
-email.email.newhomeswithmike.ca$image
-email.email.newjerseyimmigrationservices.com$image
-email.email.newlane.edu$image
-email.email.newleaf-psychology.com$image
-email.email.newlifecarpet.feedbackfleet.co$image
-email.email.newlifechurchms.com$image
-email.email.newmancmpy.bloompromos.com$image
-email.email.newmanmedicalmail.com$image
-email.email.newnestsolutions.net$image
-email.email.newokchome.com$image
-email.email.newparadigmparenting.xyz$image
-email.email.newpathwaymarketing.com$image
-email.email.newportlendinggroup.com$image
-email.email.newpowermail.co.uk$image
-email.email.newpowersolar.co.uk$image
-email.email.newprolandscapes.net$image
-email.email.newregularlifestyle.com$image
-email.email.newriversports.com$image
-email.email.news.rambler.ru$image
-email.email.newsletter.flooringmatters.org$image
-email.email.newstreet.ca$image
-email.email.newtonesa.com$image
-email.email.newuserapprove.com$image
-email.email.newvisionconcept.com$image
-email.email.newvuemedical.com$image
-email.email.newwavepartners.net$image
-email.email.newwayfinancialco.com$image
-email.email.newyork.fastlanedrive.com$image
-email.email.newyorkareaimmigrationservices.com$image
-email.email.newyorkspremiergroup.com$image
-email.email.nex-lead.app$image
-email.email.nexadatasolutions.com$image
-email.email.nexainsurancesolutions.com$image
-email.email.nexamortgage.net$image
-email.email.nexarecruiting.com$image
-email.email.nexatradesgroup.com.au$image
-email.email.nexawebai.com$image
-email.email.nexdraft.ca$image
-email.email.nexgb.com$image
-email.email.nexgold.com$image
-email.email.nexiahealthcarecrm.com$image
-email.email.neximoai.com$image
-email.email.nexlead.app$image
-email.email.nexlevlai.com$image
-email.email.nexoradigital.com.au$image
-email.email.nexoraphilippines.com$image
-email.email.nexsoh.com$image
-email.email.nexstagewealth.com$image
-email.email.nexstep.com.es$image
-email.email.nexsteplatam.com$image
-email.email.next-stopeurope.eu$image
-email.email.next1toai.com$image
-email.email.nextbenefitsinc.ca$image
-email.email.nextdoorcontractor.com$image
-email.email.nextgenbullion.com$image
-email.email.nextgenerationestateplanning.co.uk$image
-email.email.nextgenerationsolar.com.au$image
-email.email.nextgenlab.sk$image
-email.email.nextgenrealtynyc360madison.com$image
-email.email.nexthomes.es$image
-email.email.nextlayerco.com$image
-email.email.nextlegacy.net$image
-email.email.nextlevelalliancemarketing.net$image
-email.email.nextlevelbusinesscoach.com$image
-email.email.nextlevelbusinesslive.com$image
-email.email.nextlevelcare.us$image
-email.email.nextlevelcrm.net$image
