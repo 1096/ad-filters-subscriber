@@ -1,7 +1,145 @@
 ! ADFS AdBlock easylist
-! Last Modified: 2026-11-15 02:14:15
-! Total Size: 1006019
+! Last Modified: 2026-11-16 02:15:09
+! Total Size: 1006031
 ! Homepage: https://github.com/Silentely/AdBlock-Acceleration/
+@@||googletagmanager.com/gtag/js?id=$domain=decrypt.day
+||pagead2.googlesyndication.com/getconfig/sodar?$xhr,important,domain=decrypt.day
+@@||googleads.g.doubleclick.net/pagead/ads?gdpr=$subdocument,domain=decrypt.day
+@@||g.doubleclick.net/pagead/ads?gdpr=$subdocument,domain=decrypt.day
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=decrypt.day
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_*.js$domain=decrypt.day
+@@||decrypt.day^$generichide
+miraculum.ml##+js(abort-on-property-write, fairAccess)
+live-tv-channels.org##+js(prevent-fetch, pagead2.googlesyndication.com)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockradio.com
+digminecraft.com##+js(set-constant, pbg.a, undefined)
+||0gomovies-official.site/jss/dectector-2025.js
+fmovies24.watch##+js(set-constant, AB_Detector, noopFunc)
+business3.tradeshowrating.com##+js(no-xhr-if, googleads.g.doubleclick.net)
+chfi.com,1067rock.ca,921citi.ca,q92sudbury.com,star959.ca,977rock.ca,979rock.ca,chez106.com,country1011.com,country1043.com,country1067.com,country1071.com,country1073.ca,country600.com,country933.com,country935.ca,easy1013.ca,jack1023.com,jack929.com,jack969.com,jack969.ca,krock1057.ca,sonic1029.com,sonicradio.ca,starfm.com,kiss1023.ca,kiss925.com,kissnorthbay.com,kissottawa.com,kissottawa.com,kisssudbury.com,kisstimmins.com,kiss917.com##+js(set-constant, _detected, false)
+/wp-content/themes/decibel/javascripts/musc.passive_display_adblockx.js
+liveone.com##+js(set-constant, APP.useAdblockNag, false)
+liveone.com##+js(set-constant, APP.suppressDisplayAds, true)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=liveone.com
+||raenonx.cc/nitro.js
+raenonx.cc##+js(set-constant, nitroAds.abp, true)
+blackhatworld.com##+js(noeval-if, decodeURIComponent(atob)
+dailyrevs.com##+js(no-xhr-if, adsbygoogle)
+||mi-reporter.com/wp-content/plugins/incognito_dectector/
+panel.fps.ms#@#.adContent
+emoji.gg##+js(remove-node-text, script, smelly)
+emoji.gg###yousmell
+@@||swap.qth.com/include/adblockdetection/adblockDetector.js
+swap.qth.com##+js(abort-current-script, adblockDetector)
+||hicalc.com/Js/PromptShowAD.js
+hicalc.com##+js(prevent-fetch, pagead2.googlesyndication.com)
+zippyshare.day##+js(prevent-fetch, pagead2.googlesyndication.com)
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noop.js,domain=zippyshare.day,script
+alliancex.org#@#.ad-spot
+alliancex.org##+js(no-setTimeout-if, offsetHeight===0)
+||alliancex.org/shield/wp-content/plugins/*/js/adblock-script.js
+denverbroncos.com##body > div:not([class], [id]) > #AdHeader:style(display: block !important;)
+denverbroncos.com##body > div:not([class], [id]) > #AdHeader ~ *:style(display: block !important;)
+denverbroncos.com##+js(abort-on-stack-trace, document.querySelector, checkVisibility)
+/wp-content/plugins/wpadcenter-pro/public/*/wpadcenter-pro-public.min.
+mendationforc.info##+js(abort-current-script, document.createElement, onerror)
+uploadmall.com#@#.AdSense
+uploadmall.com#@#.Adsense
+uploadmall.com#@#.adSense
+uploadmall.com#@#iframe[width="728"][height="90"]
+uploadmall.com##+js(set-constant, navigator.brave, undefined)
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=uploadmall.com
+@@||dcbbwymp1bhlf.cloudfront.net^$script,domain=uploadmall.com
+meteum.ai##+js(abort-on-stack-trace, Promise, loadAdvManager)
+perchance.org##+js(no-setTimeout-if, adIframesExist)
+perchance.org##+js(set-constant, createAdCtn, noopFunc)
+videos.tybito.com,videos.pornototale.com,videos.eispop.com,videos.porndig.com##body > div:not([class], [id]) > #AdHeader:style(display: block !important;)
+videos.tybito.com,videos.pornototale.com,videos.eispop.com,videos.porndig.com##body > div:not([class], [id]) > #AdHeader ~ *:style(display: block !important;)
+videos.tybito.com,videos.pornototale.com,videos.eispop.com,videos.porndig.com##+js(abort-on-stack-trace, document.querySelector, checkVisibility)
+nfl.com##+js(set-constant, Object.prototype.bannerIds, undefined)
+mixrootmod.com###adBlockModal
+bagi.co.in##+js(no-xhr-if, pagead2.googlesyndication.com)
+||cdn.btmessage.com^$domain=leagueofgraphs.com|mobafire.com|porofessor.gg
+porofessor.gg,mobafire.com,leagueofgraphs.com##+js(set-constant, __bt_intrnl.aaDetectionResults.ab, false)
+||drawize.com/Scripts/ads234.js
+drawize.com##+js(set-constant, recreateAds, noopFunc)
+drawize.com##+js(set-constant, firstAdLoadPassed, true)
+drawize.com##+js(set-constant, showVideoAd, noopFunc)
+niyogbd.xyz##.popSc
+niyogbd.xyz,erocosplay.org,mlwbd.to,shareus.io##+js(abort-on-property-write, antiAdBlockerHandler)
+docsmall.com##body:style(overflow: auto !important;)
+docsmall.com##.modal-ads-tip:style(display: none !important;)
+docsmall.com##+js(set-constant, adsbygoogle.loaded, true)
+drakecomic.*##+js(abort-on-property-write, checkAdBlocker)
+||drakecomic.*/wp-content/themes/mangareader/script.js
+cruisingearth.com##+js(no-setTimeout-if, show())
+@@||cruisingearth.com/community/js/BJumh/top-ads.js
+rateyourmusic.com##+js(set-constant, adsSlotRenderEndSeen, true)
+*$redirect-rule=noop.js,xhr,domain=werfgt.fun,script
+@@||progress.org.uk/wp-content/plugins/adsanity-adblock-detection/public/js/ads.js$~3p
+progress.org.uk##body > div[style*="width: 100vw; height: 100vh; position: fixed;"][style*="z-index:"]
+progress.org.uk##+js(abort-current-script, document.getElementById, window.getComputedStyle)
+videopoker.com##+js(set-constant, checkAdsBlocked, noopFunc)
+@@||static.truex.com/js/client.js$domain=schoolcheats.net
+@@||a.lulucdn.com/js/dnsads.js
+4fuk.me##+js(prevent-fetch, pagead2.googlesyndication.com)
+careersatcouncil.com.au##body > div[style^="width: 100vw; height: 100vh;"][style$="z-index: 99999;"]
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=avforums.com
+sat-sharing.com##body > div[class*=" "][style^="background:"]
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sivadictionaries.com
+sivadictionaries.com#@#ins.adsbygoogle[data-ad-slot]
+sivadictionaries.com#@#ins.adsbygoogle[data-ad-client]
+sivadictionaries.com##.adsbygoogle:style(height: 1px !important;)
+||im9.eu/*_*_*.js
+im9.eu##+js(noeval-if, adpreserve)
+im9.eu##+js(abort-current-script, setTimeout, /\+-parseInt.*0x.*;if\(typeof/)
+@@-sponsor-ad.gif?advert=$domain=im9.eu
+fastp.org##+js(set-constant, adsbygoogle.loaded, true)
+whatsafterthemovie.com##+js(prevent-fetch, pagead2.googlesyndication.com)
+luluvido.com,upbolt.to,bestbondagevideos.com,up4fun.top,luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com##+js(abort-on-property-read, showADBOverlay)
+luluvido.com,upbolt.to,bestbondagevideos.com,up4fun.top,luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com##+js(abort-on-stack-trace, $, showADBOverlay)
+luluvido.com,upbolt.to,bestbondagevideos.com,up4fun.top,luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com##body > div[class][oncontextmenu][style="display: block;"]
+tempinbox.xyz##+js(no-setTimeout-if, enable_ad_block_detector)
+@@||tempinbox.xyz/storage/js/mnpw3.js
+techbloogs.com,tutwuri.id,lokerwfh.net##body:style(overflow: auto !important;)
+techbloogs.com,tutwuri.id,lokerwfh.net###adblock-warning:style(display: none !important;)
+techbloogs.com,tutwuri.id,lokerwfh.net##+js(no-xhr-if, pagead2.googlesyndication.com)
+popcrush.com##+js(prevent-fetch, pagead2.googlesyndication.com)
+win7simu.visnalize.com##+js(prevent-fetch, adsbygoogle)
+||snigelweb.com^$domain=editpad.org,redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
+||tom.itv.com/itv/tserver/random=$xhr,redirect=noopvast-4.0
+@@||itv.com/itv/tserver/$~3p,badfilter
+@@||itv.com/itv/tserver/*size=*/*/viewid=$badfilter
+@@||spike.itv.com/itv/lserver/tserver/random=$xhr
+@@||itv.com/itv/tserver/*size=*/*/viewid=
+sigaptech.com,tutorialsaya.com###adb
+paste-drop.com##+js(no-xhr-if, adsbygoogle)
+hentaigasm.com##+js(prevent-fetch, agead2.googlesyndication.com/pagead/js/adsbygoogle.js)
+hqq.ac##+js(set-constant, adblockcheck, false)
+appleware.dev##+js(no-setTimeout-if, .offsetHeight)
+hentaihd.net,xstream.top##+js(prevent-fetch, adsbygoogle)
+||popcdn.day/magnitude.js
+u.co.uk##+js(prevent-fetch, v.fwmrm.net)
+@@||javtiful.com/ad-engine.js
+javtiful.com##+js(abort-current-script, document.getElementById, !document.body.contains(document.getElementById()
+shojoscans.com,en-thunderscans.com##.lm-adblock-notfic-container
+shojoscans.com,en-thunderscans.com##+js(prevent-fetch, /(jubnaadserve|googlesyndication)\.com/)
+||10minutemail.com/ub/ub.js
+@@||kumo.network-n.com/dist/app.js$domain=discordbotlist.com
+@@||sportnews.to^$generichide
+@@||topsporter.net^$generichide
+||evaki.fun/block/$script
+||thesciencetoday.com/block/$script
+evaki.fun,sportshub.to,sportnews.to##body > div[id]:has(> .keep-lightbox)
+evaki.fun,sportshub.to,sportnews.to##body > div[style*="position: fixed; top:"][style*="z-index:"]
+evaki.fun,sportshub.to,sportnews.to###adblock-overlay
+nasdaqfutures.org,evaki.fun,sportshub.to,sportnews.to##body > *:style(filter: none !important;)
+nasdaqfutures.org,evaki.fun,sportshub.to,sportnews.to##body > div[class*=" active"][style]:style(display: none !important;)
+nasdaqfutures.org,evaki.fun,sportshub.to,sportnews.to##body > div[class*=" active"][style] + div[class]:has(> .active > [class*="-content"]):style(display: none !important;)
+evaki.fun,sportshub.to,sportnews.to##+js(prevent-fetch, adsbygoogle.js)
+evaki.fun,sportshub.to,sportnews.to##+js(abort-current-script, document.getElementsByTagName, $$$)
+sportshub.to##+js(remove-node-text, script, Databffbdb)
+sportnews.to##+js(remove-node-text, script, Dev tools checker)
 sportshub.to,sportnews.to,topsporter.net##+js(no-xhr-if, pubads.g.doubleclick.net/pagead/js/adsbygoogle.js)
 sportnews.to,topsporter.net##+js(abort-current-script, $, keepChecking)
 sportnews.to,topsporter.net##+js(no-xhr-if, static.doubleclick.net/instream/ad_status.js)
@@ -6258,6 +6396,10 @@ ncore.cc##.banner
 ncore.cc#@#.text-ad-links
 mbl.is##body > main#allt:style(margin-top: 0 !important;)
 airtelxstream.in##.vdo-player__wrapper:style(display: block !important;)
+economictimes.com##.atf-wrapper
+iamgujarat.com##.top-atf-wrapper
+economictimes.com,samayam.com,indiatimes.com,vijaykarnataka.com,maharashtratimes.com##.alaskamasthead
+iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##div[class^="mrec"]
 prothomalo.com##.qt-image-dynamic + div[class]:has(> div[class] > div.dfp-ad-unit)
 bd-bulletin.com##div.text-center > a[href="#"] > img[src^="/templates/bulletine-web/"]
 bd-bulletin.com##div.text-center > div[style]:has(> a[href="#"]:contains(Advertisement))
@@ -13481,7 +13623,7 @@ sonixgvn.net##+js(addEventListener-defuser, PN_BEFORE_CREATE, ][)
 files.im##+js(json-prune, *, ppuClicks)
 strikeout.nu##+js(json-prune, *.*, *.clk)
 ontiva.com##+js(no-window-open-if)
-susanexpectcare.com,claireguessthousand.com,rebeccasciencestreet.com,nicholasbreakplan.com,benjaminreducecommunity.com,maryspecialwatch.com,brittanyaheadnew.com,charlessheimprove.com,richardquestionbuilding.com,timmaybealready.com,charlestoughrace.com,ianrequireadult.com,marissasharecareer.com,jessicaclearout.com,nlcosplay.com,jefferycontrolmodel.com,dianaavoidthey.com,lancewhosedifficult.com,lauradaydo.com,crystaltreatmenteast.com,hentaianimezone.com,cdn1.site,walterprettytheir.com,christopheruntilpoint.com,doujinantena.top,kimochi.info,sxyprn.net,sxyprn.com,mikaylaarealike.com,lukesitturn.com,jilliandescribecompany.com,kellywhatcould.com,johnalwayssame.com,mariatheserepublican.com,jonathansociallike.com,diananatureforeign.com,sarahnewspaperbeat.com,richardsignfish.com,jennifercertaindevelopment.com,nathanfromsubject.com,adrianmissionminute.com,kristiesoundsimply.com##+js(abort-current-script, WebAssembly, atob)
+arianathankspecial.com,claireguessthousand.com,rebeccasciencestreet.com,nicholasbreakplan.com,benjaminreducecommunity.com,maryspecialwatch.com,brittanyaheadnew.com,charlessheimprove.com,richardquestionbuilding.com,timmaybealready.com,charlestoughrace.com,ianrequireadult.com,marissasharecareer.com,jessicaclearout.com,nlcosplay.com,jefferycontrolmodel.com,dianaavoidthey.com,lancewhosedifficult.com,lauradaydo.com,crystaltreatmenteast.com,hentaianimezone.com,cdn1.site,walterprettytheir.com,christopheruntilpoint.com,doujinantena.top,kimochi.info,sxyprn.net,sxyprn.com,mikaylaarealike.com,lukesitturn.com,jilliandescribecompany.com,kellywhatcould.com,johnalwayssame.com,mariatheserepublican.com,jonathansociallike.com,diananatureforeign.com,sarahnewspaperbeat.com,richardsignfish.com,jennifercertaindevelopment.com,nathanfromsubject.com,adrianmissionminute.com,kristiesoundsimply.com##+js(abort-current-script, WebAssembly, atob)
 mysexgamer.com##+js(no-setTimeout-if, window.location.href = "/out.php")
 xpornzo.com##+js(abort-on-property-read, iamout)
 lesboluvin.com##+js(abort-on-property-read, iamout)
@@ -15094,6 +15236,8 @@ vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.
 $subdocument,3p,denyallow=disqus.com,domain=love4u.net
 $image,3p,denyallow=googleapis.com,domain=vipbox1.org
 ||linksconsole.com/ad-system/
+glasgowlive.co.uk##div[class*="aboola"]
+glasgowlive.co.uk##div[data-tmdatatrack="non-content-unit"]
 siteprice.org###header_new2_HeaderAdsense
 siteprice.org##.adCLS
 thetimes.com###react-app > div#sticky-leaderboard-wrapper:has(> div#ad-sticky-leaderboard)
@@ -15402,7 +15546,7 @@ xflms.com##div[data-slot]
 lyricsly.in##.ad-console-box
 lyricsly.in##.sticky-anchor-ad
 ||estaticos01.gays-cruising.es/recursos/tres-doce.js
-yt-shorts-dl.com,porn3dx.com,porner.io,yesporn.io,nexify-zone.com,4khd.com,wallpaperalchemy.com##+js(no-window-open-if, _blank)
+viddown.net,yt-shorts-dl.com,porn3dx.com,porner.io,yesporn.io,nexify-zone.com,4khd.com,wallpaperalchemy.com##+js(no-window-open-if, _blank)
 ||hockeyslovakia.sk/sk/bannerimg/
 fakta.id,datapendidikan.com,urlwebsite.com##div.mx-auto:has(> ins.adsbygoogle)
 mangaball.com##.w-full:has(> div[class] > span.uppercase > span:contains(Advertisement))
@@ -15590,7 +15734,7 @@ omgjav.com##div[data-region="content"] div.flex.justify-center.items-center:has(
 omgjav.com##pwx-top-ad-banner
 ||zxcprime.xyz/ad-script.js
 ||vidy.st/scripts/xyz.js
-worldfree4u.business,worldfree4u.*##.ffad-box
+worldfree4u.apartments,worldfree4u.*##.ffad-box
 minefun.io##+js(set-constant, __poki_no_ads, true)
 standard-freeholder.com,recorder.ca,thewhig.com##.pmd-ad-container
 brantfordexpositor.ca##main > div:has(> section.widget--local-business)
@@ -41420,18 +41564,18 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
-||amercedmexicabourock.cfd^
-||blumecedingbaltic.cfd^
+||beprnlbqbqwcb.online^
 ||demand.supply^$script
+||eiueayjvitdew.website^
 ||fl.corniercuffed.qpon^
-||glgyxkvmbamoy.website^
+||lmiatiqshwntg.space^
 ||macro.adnami.io^
 ||paid.outbrain.com^
+||priggedemim.com^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
-||rznkohtdshknm.site^
-||stbdktrfpkjsl.online^
-||trampdreamalluded.com^
+||seniorstormfallen.com^
+||venueitemmagic.com^
 ||wpnrtnmrewunrtok.xyz^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
@@ -47015,6 +47159,7 @@ browsershots.org#@#.advert_area
 ||saboom.com.pccdn.com^*/banner/
 ||sakuralive.com/dynamicbanner/
 ||scoreland.com/banner/
+||scripts.dkmedia.now.sh/popunders/
 ||sexei.net^$subdocument,xhr
 ||sexgangsters.com/sg-banners/
 ||sexmature.fun/myvids/
@@ -48486,6 +48631,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||xfree.com/api/banner/
 ||xgirls.agency/pg/c/
 ||xgroovy.com/65
+||xgroovy.com/nFXDnuD7XV5Abih9/
 ||xgroovy.com/static/js/script.js
 ||xhaccess.com^*/vast?
 ||xhamster.com*/vast?
@@ -56408,6 +56554,7 @@ qwant.com##.is-sidebar:has(a[data-testid="advertiserAdsLink"])
 alphacoders.com##.item:has(.in-thumb-ad-mobile-desktop)
 herzindagi.com##.items-center:has(.ads)
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
+timesofindia.indiatimes.com##.js_tbl_article ~ div[class]:not([id]):has(> div.wdt-taboola[onclick="stpPgtn(event)"])
 motortrend.com##.justify-center:has(.nativo-news)
 slickdeals.net##.kevelYouMightLikeDealCard:has(.dealCardBadge--promoted)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
@@ -56521,6 +56668,7 @@ linuxhaxor.net##.widget_text:has(a[href^="https://www.linuxhaxor.net/go"])
 trip.com##.with-decorator-wrap-v8:has(span.ad_tag)
 celebmafia.com##.wp-caption > [class]:has([width="300"])
 navyamedia.com##.wpb_text_column:has(> .wpb_wrapper > p >ins.adsbygoogle)
+timesofindia.indiatimes.com##.wrapperclearfix > div[class] > div[class]:not([id]) > div[data-translate-id="cw"]:has(> div:is(div[id^="div-gpt-ad"], .taboolaBtmVsAd))
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,theintelligencer.com##.y100:has([data-block-type="ad"])
 realnarrativenews.com##[aria-label="Advertisement"]
@@ -56586,7 +56734,7 @@ linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 freightwaves.com##[href^="https://academy.freightwaves.com/"]
 pahe.ink##[href^="https://theshorten.net/"]
 alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
-x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
+x.com##[id^="urt"] > ul > li:has([class^="group-has-\[\[data-ad-disclosure"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)
 mail.aol.com##[role="presentation"]:has(> div[data-ad-row-id])
@@ -60582,6 +60730,9 @@ hotosena.com,kurukura.jp,nobico.php.co.jp,healthyplace.com,qlife.jp,wiki.yjsnpi.
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+iamgujarat.com,indiatimes.com,vijaykarnataka.com,maharashtratimes.com##.carousalad
+iamgujarat.com,indiatimes.com,samayam.com,maharashtratimes.com##.mid-taboola
+iamgujarat.com,indiatimes.com,samayam.com,maharashtratimes.com##.mid-home-new-personalisation-taboola
 cat-press.com##.widget_custom_html:has(> div.textwidget > div > ins.adsbygoogle)
 cars.tvbs.com.tw##.h-\[250px\].w-\[970px\]
 cars.tvbs.com.tw##.h-\[100px\].w-\[320px\]
@@ -61651,7 +61802,6 @@ s.resemom.jp##div[style^="z-index:9999999;position:-webkit-sticky;position:fixed
 tennisbear.net##.float-banner
 nikkan-gendai.com##footer > div.copy:style(padding-bottom: 40px !important;)
 vuzopedia.ru##.underhRecl
-navbharattimes.indiatimes.com,telugu.samayam.com##.fbnad
 medicalnewstoday.com##aside[data-testid="mobile-leaderboard"]
 hk.news.yahoo.com###sda-anchored-btm-sticky-iframe
 livehindustan.com##div[class^="StoryPage_mstheadAdMob"]
@@ -66761,6 +66911,7 @@ vfokuse.mail.ru##div[data-logger="PortalMenuPromo"]
 vfokuse.mail.ru##header > div[class]:has(> div[class*="rb-slot_plug"])
 livejournal.com##data-banner-place-id
 livejournal.com##div[id^="billboard_mobile_"]
+iamgujarat.com,vijaykarnataka.com,maharashtratimes.com,indiatimes.com,samayam.com##.fbnad
 dot.asahi.com##.article-inarticle-guide
 heise.de##.ad-mobile-group-3
 hatenadiary.com,hatenadiary.jp,hatenadiary.org,hatenablog.com,hatenablog.jp,hateblo.jp##.ad
@@ -69982,27 +70133,23 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||acweb.clog.jp^$3p
 ||ad.kddi-fs.com^
 ||data.adobedc.net^$3p
-||insights.morrismohawk.ca^
 ||metrics.looksmart.com^
 ||metrics.multiview.com^
-||stats.ntsfsdsuv.com^
-||data.e.fordfield.com^
+||adobe-ep.medicaid.gov^
 ||data.email.tangerine.ca^
 ||mbox3.offermatica.com^
 ||mbox3e.offermatica.com^
 ||mbox4e.offermatica.com^
 ||mbox6.offermatica.com^
-||smetrics.climatefieldview.es^
+||smetrics.akamai.com^
 ||metrics.reedbusiness.net^
 ||-tmp-logs-metrics.hb.tt.omtrdc.net^
 ||mbox.offermatica.com^
 ||atinternet.com^$3p
 ||xiti.com^$3p
 ||commandersact.com^$3p
-||zekotj.bijoupiko.com^
 ||dataunlocker.com^$3p
 ||cl3ywestv3b5.ru.themoneytizer.com^
-||gmmjr.everydays.de^
 ||iiaqo.puckababy.com^
 ||ensighten.com^$3p
 ||analytics.ensighten.com^
@@ -70015,9 +70162,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||suncorp.activate.ensighten.com^
 ||euleriancdn.net^$3p
 ||eulerian.net^$3p
-||nym5c.bonlook.com^
 ||etracker.com^$3p
-||stats.haus-am-meer-norderney.de^
+||trout.openfpl.com^
 ||goatcounter.com^$3p
 ||daraz.com^$3p
 ||-084-gls-223-www-9-k-0brasil.net.daraz.com^
@@ -70044,36 +70190,39 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||net.quisma.com^
 ||gate.hockeyapp.net.iberostar.com^
 ||at_w_atexxpressdata-c3a3188a23.exxpress.at^
-||data-deb04a4388.wb-jobs.de^
 ||pool1.ioam.de^
 ||pool2.ioam.de^
 ||pool4.ioam.de^
 ||pool5.ioam.de^
 ||track.st.dbfocus.jp^
 ||1to1dialogue.thunderhead.com^
+||business.keurig.com^
 ||sw.broadcom.com^
 ||rt.vprtrfc.com^
 ||trck.bestonlinecasino.club^
+||track.taxextension.org^
 ||cloud.conversion.pl^
+||load.api.gtmarketingconsultoria.com.br^
 ||load.gtm.hurra.com^
 ||load.sgtm.reseller.bannerheld.de^
 ||load.sgtm.tennis-point.de^
-||luid-inzicht.kunststofkozijn.nl^
-||sst.beeluckyprizes.co.uk^
-||sst.lexum.sk^
-||bartdta.jameslane.com.au^
-||gtm.splashconvites.com^
-||gtm.tudosobremarcenaria.com.br^
+||gloriva.glorivabeauty.com^
 ||gtmserver.imobiliariaesperanca.com.br^
 ||load.sgtm.joga.dk^
 ||load.sst.colemanfurniture.com^
 ||m.muaralab.com^
 ||metrics.ezmob.com^
+||server.baghousebd.com^
 ||sgtm.richads.com^
+||sst.eirenestudio.com^
+||sst.mykidsgear.com^
+||sst.solyn.com^
 ||sst.us.taahirajewellery.com^
 ||stape.clickguard.com^
+||stape.greenhousehall.com.br^
 ||stape.matsato.com^
 ||stape.meusoroban.com.br^
+||wellaheat-ss.checkoutera.com^
 ||webtrekk.com^$3p
 ||webtrekk-asia.net^$3p
 ||webtrekk-us.net^$3p
@@ -70081,7 +70230,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||webtrekk.net^$3p
 ||d1udjti6mtxz9q.cloudfront.net^$3p
 ||tags.news.com.au^$~script
-||matomo.der-heudesigner.de^
 ||tk3.keodinh.net^
 ||servt.ergadx.com^
 ||users.vidy.st^$3p
@@ -70089,7 +70237,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||eu-south-2.alb.pulse.perfmetrics.netflix.com^
 ||events.insiad.com^
 ||pvdpix.com^$3p
-||jzq915.playmobil.com^ы
 ||valnet.sentinelpro.com^
 ||e.aimerce.ai^
 ||track-events.membrana.media^
@@ -158221,293 +158368,3 @@ email.email.my.music$image
 email.email.my360crm.app$image
 email.email.my3dsmile.com$image
 email.email.myaareno.com$image
-email.email.myaestheticsconsultation.co.uk$image
-email.email.myagelessbody.com$image
-email.email.myagenta.com$image
-email.email.myamichelle.com$image
-email.email.myartmarketplace.com$image
-email.email.mybeautyoffer.com$image
-email.email.mybestbodyever.info$image
-email.email.mybetterhealth.care$image
-email.email.mybilliondollarlife.com$image
-email.email.mybizaiagent.com$image
-email.email.mybizwiz.com$image
-email.email.mybocaobgyn.com$image
-email.email.mybodiclinics.com.au$image
-email.email.mybody-mytemple.com$image
-email.email.mybookkeepers.com$image
-email.email.mybotsi.com$image
-email.email.myboudoiratlanta.com$image
-email.email.mybreezeops.com$image
-email.email.mybusinessbreakthroughs.com$image
-email.email.mybusinesschurch.com$image
-email.email.mycalls.us$image
-email.email.mycaptivaskincare.com$image
-email.email.mycellen.com$image
-email.email.mychicagocontractor.com$image
-email.email.myclearview.uk$image
-email.email.myclovermarketing.com$image
-email.email.myconsultingoffer.org$image
-email.email.mycontent.agency$image
-email.email.mycoresystem.com$image
-email.email.mycountrysideclinic.com$image
-email.email.mycred.me$image
-email.email.mycutrate.com$image
-email.email.mydentalcosmeticspecials.com$image
-email.email.mydentalspecials.com$image
-email.email.mydetailingbusiness.com$image
-email.email.mydispatchroot.com$image
-email.email.mydreamland.fr$image
-email.email.mydreamweddingplan.com$image
-email.email.myedeleon.com$image
-email.email.myelevatedself.com$image
-email.email.myempoweredparenting.com$image
-email.email.myendocoach.co.uk$image
-email.email.myep.us$image
-email.email.myepiccrm.com$image
-email.email.myexbackcoach.com$image
-email.email.myexteriors.com$image
-email.email.myeyestore.com$image
-email.email.myfamilybank.net$image
-email.email.myfarmasi.com$image
-email.email.myfconsultores.com$image
-email.email.myfednav.com$image
-email.email.myfinanceupdate.com$image
-email.email.myfloridacram.com$image
-email.email.myfuncolors.com$image
-email.email.myfunnelbuilderpro.com$image
-email.email.myfutureproofteam.com$image
-email.email.mygolfhouse.com$image
-email.email.myhealthride.com$image
-email.email.myheatpro.com$image
-email.email.myhomegroupwestgate.com$image
-email.email.myhouseinthejunction.com$image
-email.email.myiconre.com$image
-email.email.myinarahealth.com$image
-email.email.myinfiniteways.com$image
-email.email.myjitsjourney.com$image
-email.email.mykeystone-services.com$image
-email.email.mykwt.co.uk$image
-email.email.mylawaid.com$image
-email.email.mylerhughes.art$image
-email.email.mylifeos.com$image
-email.email.mylimitlesslabs.com$image
-email.email.myloanrebate.com$image
-email.email.mylocal.video$image
-email.email.mylocallaunch.com$image
-email.email.mylocalmp.com$image
-email.email.mylocalreview.com$image
-email.email.mylovelystartup.com$image
-email.email.myluminapath.com$image
-email.email.mymclub.co$image
-email.email.mymedspapro.com$image
-email.email.mymethodtomadness.com$image
-email.email.mymodifica.com$image
-email.email.myndflow.co$image
-email.email.mynmbacademy.com$image
-email.email.myoalign.com$image
-email.email.myofficehelp.com$image
-email.email.mypatientstream.com$image
-email.email.mypestpros.com$image
-email.email.mypiapp.com$image
-email.email.myplan4retirement.org$image
-email.email.myplantoscale.com$image
-email.email.mypracticemastermind.com$image
-email.email.mypreferredorganizer.com$image
-email.email.mypropertybox.co.uk$image
-email.email.mypropertyfinder.ca$image
-email.email.mypurposequest.com$image
-email.email.myqbiz.net$image
-email.email.myrealestatecpa.net$image
-email.email.myrealestateleadmachine.com$image
-email.email.myrealleads.com$image
-email.email.myrealoriginate.com$image
-email.email.myrealtoriq.com$image
-email.email.myreio.com$image
-email.email.myreliablepestsolutions.com$image
-email.email.myresilientteen.com$image
-email.email.myretailbudddy.com$image
-email.email.myretirementfortress.com$image
-email.email.myrevenueboost.co.uk$image
-email.email.myrnamendoza.ca$image
-email.email.mysaltai.com$image
-email.email.mysaltstudio.com$image
-email.email.myschoolnurse.co$image
-email.email.myseniorcarepartners.com$image
-email.email.myseoautopilot.com$image
-email.email.myshop-pro.com$image
-email.email.mysimplelivingspace.com$image
-email.email.mysmartsimplicity.com$image
-email.email.mysouthdental.com$image
-email.email.mysouthernvintage.com$image
-email.email.mysticmattyoung.com$image
-email.email.mystoryedge.com$image
-email.email.mystrategicprofits.com$image
-email.email.mystretchcoach.online$image
-email.email.mystudiomanager.au$image
-email.email.mysunnylaundrymail.com$image
-email.email.myteamscoop.com$image
-email.email.mytechnologysetup.com$image
-email.email.mythicads.com$image
-email.email.mythicroas.com$image
-email.email.mythosbox.com$image
-email.email.mythriveengine.com$image
-email.email.mytitleservice.com$image
-email.email.mytitleservices.com$image
-email.email.myvenueprofit.com$image
-email.email.myvivainsurance.com$image
-email.email.myvoda.mn-referral-partners.com$image
-email.email.mywarrioralliance.com$image
-email.email.mywebadvantage.com$image
-email.email.mywwmm.com$image
-email.email.mzviktor.hu$image
-email.email.n-compass.tv$image
-email.email.n1consulting.us$image
-email.email.n1phone.com.br$image
-email.email.naazme.com$image
-email.email.nabk.nl$image
-email.email.nabresults.com$image
-email.email.nabsus.com$image
-email.email.nacatpros.org$image
-email.email.nachomerino.com$image
-email.email.nadeauautomobiles.com$image
-email.email.nadezpen.com$image
-email.email.nadiatina23.com$image
-email.email.nadine-almer.com$image
-email.email.nadinemariecollection.com$image
-email.email.nadinewrightauthor.com$image
-email.email.nadlancharedi.com$image
-email.email.naeemstudiosweddings.com$image
-email.email.naghamthecoach.com$image
-email.email.nagykarolina.hu$image
-email.email.nail-perfect.nl$image
-email.email.nailmasters.academy$image
-email.email.nailmasterspro.com$image
-email.email.nakotip.no$image
-email.email.nalisbakery.com$image
-email.email.naloxkit.com$image
-email.email.namastaze.com$image
-email.email.namilas-hundeschule.de$image
-email.email.namitaramani.com$image
-email.email.nanosilk.it$image
-email.email.naomistonier.com$image
-email.email.napelemparkfenntarto.hu$image
-email.email.napelemtelepites.hu$image
-email.email.naperville.shesaidproject.com$image
-email.email.naples.fastlanedrive.com$image
-email.email.naplesmattress.com$image
-email.email.napo.org.uk$image
-email.email.napoleonhillinstitute.com$image
-email.email.napolipanama.com$image
-email.email.naputecapro.it$image
-email.email.naralinacorreia.com.br$image
-email.email.nardininaturopathictoronto.com$image
-email.email.narranderarotary.club$image
-email.email.nascentis.com$image
-email.email.nashconsulting.co$image
-email.email.nashmobiledetailing.com$image
-email.email.nashvilleperformanceclub.com$image
-email.email.nashvilleultimaterides.com$image
-email.email.nasp.com$image
-email.email.nassaupros.com$image
-email.email.natalianogueira.tech$image
-email.email.natalieclaredoyle.com$image
-email.email.nataliecoombe.com$image
-email.email.natalielynnfit.com$image
-email.email.natalieriedecoaching.com$image
-email.email.natalietrusdale.com$image
-email.email.natalietsur-tsar.10daysalestrategy.net$image
-email.email.natantutor.com$image
-email.email.natasha-clarke.com$image
-email.email.natedamman.com$image
-email.email.nathaliatenorio.com.br$image
-email.email.nathalie-coaching.com$image
-email.email.nathaliechapron.com$image
-email.email.nathalietoddstudio.com$image
-email.email.nationalitsol.com$image
-email.email.nationallifeinsuranceservice.com$image
-email.email.nationalloanprovider.com$image
-email.email.nationwidefinancialagency.com$image
-email.email.nationwidepavingus.com$image
-email.email.nationwideroofreplacement.com$image
-email.email.nativ3.io$image
-email.email.nativelifecrm.com$image
-email.email.natkringoudis.com$image
-email.email.natso.com$image
-email.email.naturaldesignslsd.com$image
-email.email.naturalhomeschoolteacher.com$image
-email.email.naturally-healthier101.com$image
-email.email.naturally21skinbeauty.com$image
-email.email.naturalmedicine.com$image
-email.email.naturalslimpanama.com$image
-email.email.naturalwayprogram.com$image
-email.email.naturalwunderz.com$image
-email.email.naturawellnessco.com$image
-email.email.naturbellecatanzaro.it$image
-email.email.naumannlogistics.com$image
-email.email.navarroadvisors.net$image
-email.email.navegaviajes.com$image
-email.email.navi-apps.com$image
-email.email.navigatebusinesssolutions.com$image
-email.email.navigatemd.com$image
-email.email.navinsure.us$image
-email.email.navioimmigration.com$image
-email.email.naviports.com$image
-email.email.navisales.com.br$image
-email.email.navleesolutions.com$image
-email.email.navthethi.com$image
-email.email.navytribe.us$image
-email.email.nawacoleman.com$image
-email.email.naxalis.fr$image
-email.email.nayibeanduquia.com$image
-email.email.naysajensenmarketing.com$image
-email.email.nayyarssolicitors.co.uk$image
-email.email.nbcu.events$image
-email.email.nc.upcoaching.me$image
-email.email.ncal.co.uk$image
-email.email.nccanadaimmigration.com$image
-email.email.ncpropertyfinance.co.uk$image
-email.email.ndevr.io$image
-email.email.nealinsuranceiowa.com$image
-email.email.neatfitcouple.com$image
-email.email.nebaprivateclients-sa.com$image
-email.email.nebula.tv$image
-email.email.need-reviews.com$image
-email.email.needafencecompany.com$image
-email.email.needcash.uk$image
-email.email.needfuel.net$image
-email.email.neerajvaidya.com$image
-email.email.negociera.es$image
-email.email.nelsonsbuildingsco.com$image
-email.email.nemxskilledtrades.ca$image
-email.email.nemzetkoziszallitas.eu$image
-email.email.nengandryansegarra.com$image
-email.email.neoam.community$image
-email.email.neobeautybars.com$image
-email.email.neoderma.co.nz$image
-email.email.neoehs.com$image
-email.email.neonanna.it$image
-email.email.neoperformance.ca$image
-email.email.neoralfacial.com$image
-email.email.neosandres.com$image
-email.email.neosmartsolutions.com$image
-email.email.nerdapps.io$image
-email.email.nerosight.com$image
-email.email.nerve-agency.com$image
-email.email.neshconsulting.com$image
-email.email.nestivegardenrooms.co.uk$image
-email.email.net-a-deal.com$image
-email.email.netcommercemaps.com$image
-email.email.netfy.mx$image
-email.email.netgellyball.com$image
-email.email.netglowup.com$image
-email.email.netherwoodacademy.com$image
-email.email.netknowx.com$image
-email.email.netm3.com$image
-email.email.netralabs.ai$image
-email.email.netvuhouston.com$image
-email.email.networthbuildersacademy.com$image
-email.email.networthydigital.com$image
-email.email.neuemaison.co$image
-email.email.neumaticoselite.com$image
-email.email.neuravaai.com$image
